@@ -1,6 +1,3 @@
-# agentic-professor
-Gold-standard course design templates for AI-first education by Bradley.Academy. For course designers, instructional developers, and AI agents. Practical first; fundamentals before features; outcomes over theory. Structured agents and templates using Bloom’s taxonomy, voice-consistent lessons, and portfolio-ready deliverables.
-
 # Agentic Professor
 
 **Structured course design template for technical education**
@@ -358,7 +355,7 @@ If you use this template in academic work, please cite:
 ```
 Bradley. (2025). Agentic Professor: Structured Course Design Template 
 for Technical Education (Version 2.0.0) [Computer software]. 
-[https://github.com/bar181/agentic-professor](https://github.com/bar181/agentic-professor/)
+[https://github.com/[username]/agentic-professor](https://github.com/bar181/agentic-professor)
 ```
 
 ---
