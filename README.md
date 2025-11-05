@@ -7,6 +7,8 @@ Create computer science, AI, and software engineering courses with clear learnin
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-2.0.0-green.svg)](CHANGELOG.md)
 
+> **Note:** This is an original course design framework based on established pedagogical principles (Bloom's taxonomy, cognitive load theory, outcome-focused learning). It does not reproduce or include any copyrighted course materials, lecture content, or proprietary educational resources from any institution or instructor.
+
 ---
 
 ## What This Is
@@ -51,14 +53,16 @@ Each module contains:
 
 ### 3. Lesson Voice Framework
 
-Each lesson uses a specific teaching voice:
+Each lesson uses a specific teaching voice style:
 
 | Lesson | Voice Style | Purpose | Characteristics |
 |:-------|:------------|:--------|:----------------|
-| 1 | David Malan (CS50) | Hook & Context | Storytelling, analogies, big picture |
-| 2 | Andrew Ng | Technical Depth | Clear examples, systematic, concept-focused |
-| 3 | Robin Williams | Real-World Impact | Case studies, human connection, "so what" |
-| 4 | CS50 Problem Set | Hands-On Work | Specifications, structure, deliverables |
+| 1 | Engaging Storyteller | Hook & Context | Storytelling, analogies, big picture |
+| 2 | Clear Systematizer | Technical Depth | Clear examples, systematic, concept-focused |
+| 3 | Warm Humanizer | Real-World Impact | Case studies, human connection, "so what" |
+| 4 | Direct Structurer | Hands-On Work | Specifications, structure, deliverables |
+
+*Note: Voice styles are pedagogical approaches, not reproductions of any specific instructor's material.*
 
 ### 4. Create Your First Module
 
@@ -204,7 +208,7 @@ This template is based on:
 - **Contractual instruction**: Clear specifications reduce ambiguity
 - **Evidence-based pedagogy**: Grounded in learning science research
 
-Created by Bradley, teaching fellow at Harvard CS50 and instructor of AI engineering courses.
+Developed from practical experience teaching AI engineering and technical courses at the university level.
 
 ---
 
@@ -353,8 +357,8 @@ See [CHANGELOG.md](CHANGELOG.md) for detailed version history.
 If you use this template in academic work, please cite:
 
 ```
-Bradley. (2025). Agentic Professor: Structured Course Design Template 
-for Technical Education (Version 2.0.0) [Computer software]. 
+Agentic Professor: Structured Course Design Template for Technical Education 
+(Version 2.0.0) [Computer software]. (2025).
 [https://github.com/[username]/agentic-professor](https://github.com/bar181/agentic-professor)
 ```
 
@@ -362,14 +366,22 @@ for Technical Education (Version 2.0.0) [Computer software].
 
 ## Acknowledgments
 
-Template design based on:
-- Harvard CS50 pedagogical approaches (David Malan)
-- Stanford AI course methodology (Andrew Ng)
-- Bloom's taxonomy framework for learning objectives
-- Cognitive load theory and progressive disclosure research
-- Outcome-focused instructional design principles
+This template draws inspiration from established educational methodologies:
 
-Built for the AI-first education era where human expertise and AI capabilities collaborate to create effective learning experiences.
+- **Bloom's taxonomy** framework for learning objectives
+- **Cognitive load theory** and progressive disclosure research
+- **Outcome-focused instructional design** principles
+- **Engaging lecture techniques** observed in technical education
+- **Systematic teaching approaches** in online learning
+- **Problem-set methodologies** in computer science education
+
+The template synthesizes these pedagogical approaches into a structured format for technical course design. No copyrighted course materials, lecture content, or proprietary educational content from any institution or instructor are reproduced or included.
+
+This is an original work that references common teaching methodologies and instructional design principles that are widely used in technical education.
+
+---
+
+Built for modern technical education where structured pedagogy and clear learning outcomes create effective learning experiences.
 
 ---
 
