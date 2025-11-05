@@ -965,5 +965,4 @@ Use **one hero** per module (or one hero per course).
 
 ---
 
-*This template is designed to be used by human course designers and AI agents creating educational content. It prioritizes practical skills, clear communication, and portfolio-ready outcomes.* 
-*Author* Bradley Ross 
+*This template is designed to be used by human course designers and AI agents creating educational content. It prioritizes practical skills, clear communication, and portfolio-ready outcomes.*
