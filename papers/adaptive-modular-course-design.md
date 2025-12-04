@@ -67,6 +67,95 @@ This separation enables instructors to maintain pedagogical integrity while serv
 4. **Scalable Architecture**: Modules combine into pathways; pathways combine into courses
 5. **Platform Agnosticism**: Content adapts to delivery platform requirements
 
+### 1.4 The CORE + FLEX Framework
+
+The AMCD methodology is built on a simple, memorable framework: **CORE + FLEX**.
+
+```
+┌────────────────────────────────────────────────────────────────┐
+│                    THE CORE + FLEX MODEL                        │
+├────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│         CORE                    +              FLEX             │
+│       (Stable)                              (Adaptive)          │
+│                                                                 │
+│   What EVERY learner                   What ADAPTS to           │
+│   experiences                          each audience            │
+│                                                                 │
+│   C - Captivate (Hook)                 F - Fit to learner       │
+│   O - Orient (Understand)              L - Level the options    │
+│   R - Realize (Apply)                  E - Equivalent effort    │
+│   E - Execute (Practice)               X - eXpand to scale      │
+│                                                                 │
+│   = 4 Lessons                          = Tiered Problem Sets    │
+│                                                                 │
+└────────────────────────────────────────────────────────────────┘
+```
+
+#### CORE: The Four Lessons (Stable for All Learners)
+
+| Letter | Lesson | Purpose | Persona Energy | Key Question Answered |
+|--------|--------|---------|----------------|----------------------|
+| **C** | **Captivate** | Hook with story, establish relevance | High (7/10) | "Why should I care?" |
+| **O** | **Orient** | Build systematic understanding | Moderate (5/10) | "How does this work?" |
+| **R** | **Realize** | See real-world impact through case study | Warm (6/10) | "What happens when...?" |
+| **E** | **Execute** | Practice hands-on with guidance | Focused (4/10) | "Can I do this myself?" |
+
+#### FLEX: The Differentiation System (Adapts to Audience)
+
+| Letter | Principle | Implementation | Benefit |
+|--------|-----------|----------------|---------|
+| **F** | **Fit** | Match difficulty to learner's level | Appropriate challenge for all |
+| **L** | **Level** | Offer 2-3 tiered problem sets | Clear options without paralysis |
+| **E** | **Equivalent** | Ensure equal time investment per tier | Fair assessment across levels |
+| **X** | **eXpand** | Scale from module → pathway → course | Reusable architecture |
+
+#### The One-Liner
+
+> *"AMCD separates what every learner needs (CORE) from what different learners practice (FLEX)."*
+
+#### Teaching CORE + FLEX in 60 Seconds
+
+1. **The Problem**: Creating separate courses for different audiences wastes time and fragments quality.
+
+2. **The Solution**: Separate what should stay constant (CORE) from what should adapt (FLEX).
+
+3. **CORE**: Four lessons that every learner experiences—Captivate, Orient, Realize, Execute. Same story, same concepts, same case study for everyone.
+
+4. **FLEX**: Problem sets that adapt—Fit the difficulty, Level the options (2-3 tiers), ensure Equivalent time investment, then eXpand to pathways and courses.
+
+5. **The Result**: One well-designed core serves unlimited audiences through flexible practice.
+
+#### Visual: CORE + FLEX in Action
+
+```
+                    ALL LEARNERS
+                         │
+                         ▼
+              ┌─────────────────────┐
+              │        CORE         │
+              │  ┌───┬───┬───┬───┐  │
+              │  │ C │ O │ R │ E │  │
+              │  └───┴───┴───┴───┘  │
+              │   Same 4 lessons    │
+              │   for everyone      │
+              └──────────┬──────────┘
+                         │
+         ┌───────────────┼───────────────┐
+         │               │               │
+         ▼               ▼               ▼
+    ┌─────────┐    ┌─────────┐    ┌─────────┐
+    │  FLEX   │    │  FLEX   │    │  FLEX   │
+    │  Less   │    │Standard │    │  More   │
+    │  Tier   │    │  Tier   │    │  Tier   │
+    └─────────┘    └─────────┘    └─────────┘
+         │               │               │
+         └───────────────┴───────────────┘
+                         │
+                    SAME TIME
+                   DIFFERENT SCOPE
+```
+
 ---
 
 ## 2. Theoretical Foundations
