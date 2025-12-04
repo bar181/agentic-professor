@@ -4,115 +4,94 @@
 
 ---
 
-## What This Is
+## The Problem You're Facing
 
-You have expertise. You have an audience. You want to share your knowledge through courses on Udemy, Teachable, Kajabi, Skillshare, or your own platform.
+You have expertise. You have an audience. You want to share your knowledge through courses on Udemy, Teachable, Kajabi, or your own platform.
 
-But here's the problem: **knowing something and teaching it well are different skills.**
+But here's the uncomfortable truth: **knowing something and teaching it well are completely different skills.** You can be brilliant at photography, marketing, or coding—and still create courses that confuse your students, bore them, or leave them unable to actually do the thing you taught.
 
-The Adaptive Modular Course Design (AMCD) framework gives you a proven structure for creating courses that actually work—the same pedagogical foundations used at places like Harvard, packaged in a practical system you can use today.
+This happens to smart people all the time. It's not about effort. It's about structure.
 
----
-
-## Guide Index
-
-| Guide | What You'll Learn |
-|-------|-------------------|
-| [why-structure-matters.md](why-structure-matters.md) | The difference between "content dumps" and courses that transform |
-| [the-core-formula.md](the-core-formula.md) | The 4-lesson module structure that works every time |
-| [quick-start.md](quick-start.md) | Create your first AMCD module in 60 minutes |
-| [templates-and-examples.md](templates-and-examples.md) | Ready-to-use templates for different course types |
-| [common-mistakes.md](common-mistakes.md) | What other creators get wrong (and how to avoid it) |
-| [scaling-your-course-business.md](scaling-your-course-business.md) | Using AMCD to create more courses, faster |
+AMCD (Adaptive Modular Course Design) gives you that structure. It's the same pedagogical foundation used at places like Harvard, distilled into a practical system you can apply to any course you create.
 
 ---
 
-## The Problem with Most Online Courses
+## What's in These Guides
 
-You've probably taken courses that felt like this:
+**[Why Structure Matters](why-structure-matters.md)** explains the difference between courses that transform and courses that just inform. If you've ever wondered why some courses feel engaging while others feel like textbooks, start here.
 
-- Information dumps with no clear structure
-- Lectures that go on forever without practice
-- No connection between lessons
-- You finish and still can't do the thing
+**[The CORE Formula](the-core-formula.md)** is the heart of AMCD—a four-lesson module structure that works for any topic. Once you understand CORE, you'll never stare at a blank outline wondering how to organize your material again.
 
-**This is what happens when experts teach like experts**, not like educators.
+**[Quick Start](quick-start.md)** walks you through creating your first AMCD module in about an hour. It's learning by doing.
 
-Being good at something doesn't automatically mean you can teach it well.
+**[Common Mistakes](common-mistakes.md)** covers what other course creators get wrong. Some of these will be painfully familiar.
+
+**[Scaling Your Course Business](scaling-your-course-business.md)** shows how to use AMCD to create more courses faster—because structure makes repetition possible.
+
+---
+
+## Why Most Online Courses Fail
+
+Think about the worst course you've ever taken. It probably had these qualities: information dumped without context, lectures that droned on without practice, lessons that didn't connect to each other, and an ending where you still couldn't do the thing.
+
+That's what happens when experts teach like experts. They organize by logic ("first fundamentals, then advanced topics") instead of by learning ("first why it matters, then how it works, then when to use it, then practice doing it").
+
+Being knowledgeable doesn't make you a good teacher. Having a structure for teaching does.
 
 ---
 
 ## What AMCD Gives You
 
-A **proven formula** based on how people actually learn:
+A proven formula based on how people actually learn—not how experts think they should learn.
 
-1. **CORE Structure**: Every module has 4 lessons, each with a specific job
-2. **Engagement Science**: Hook learners before you teach them
-3. **Practice That Works**: Activities that build real skills
-4. **Consistency**: Your 20th module is as good as your first
+The CORE structure gives every module four lessons, each with a specific job: hook them (Captivate), teach them (Orient), show them it works (Realize), let them practice (Execute). That sequence isn't arbitrary. It's how engagement, understanding, confidence, and skill actually build.
 
-This isn't theory. It's practical pedagogy distilled into a repeatable system.
+Your 20th module will be as structurally sound as your first, because you're following a system instead of reinventing organization every time.
 
 ---
 
 ## Who Created This
 
-**Bradley Ross** developed AMCD based on his experience as a Harvard educator and AI systems specialist.
+**Bradley Ross** developed AMCD from his work at Harvard Graduate School of Education and his expertise building AI systems for education.
 
-This isn't another "guru's method." It's educational science made practical.
-
-Bradley has:
-- Taught at Harvard Graduate School of Education
-- Built AI systems that implement educational best practices
-- Studied what actually works in online learning
+This isn't another guru's method packaged for course sales. It's educational research made practical—the same foundations used in university teaching, stripped of academic jargon and made usable for anyone creating courses.
 
 **Connect**: [linkedin.com/in/bradleyross](https://linkedin.com/in/bradleyross)
 
 ---
 
-## What You'll Be Able to Do
+## What You'll Actually Get
 
-After going through these guides, you'll be able to:
+After these guides, you'll be able to structure any course using a formula that works, hook learners in the first minute of any module, create practice activities that build real capability (not just consumption), and maintain consistent quality as your course library grows.
 
-- **Structure any course** using the proven CORE formula
-- **Hook your learners** in the first 60 seconds of any module
-- **Create practice activities** that actually build skills
-- **Maintain quality** as you scale your course library
-- **Stand out** from the sea of mediocre courses on any platform
+You'll also understand why your current courses might not be working—and how to fix them.
 
 ---
 
 ## The Honest Truth
 
-This system will help you create better courses. It won't:
+AMCD will help you create better courses. It won't replace your expertise (you still need something worth teaching), do the work for you (courses still require effort), or guarantee sales (marketing is a separate skill entirely).
 
-- Replace your expertise (you need something to teach)
-- Do the work for you (courses still require effort)
-- Guarantee sales (marketing is a different skill)
-- Make you an educator overnight (but it accelerates the learning curve significantly)
-
-What it will do is give you a structure that works, so you can focus on your expertise instead of reinventing pedagogical wheels.
+What it will do is eliminate the structural uncertainty that slows you down. When you know how to organize material for learning, you can focus on your actual expertise instead of wrestling with "where does this go?" and "how should I introduce this?"
 
 ---
 
-## Getting Started
+## Where to Start
 
-**New to course creation?** Start with [why-structure-matters.md](why-structure-matters.md)
+If you're skeptical or new to course creation, start with [Why Structure Matters](why-structure-matters.md)—it explains the problem before the solution.
 
-**Ready to build?** Jump to [quick-start.md](quick-start.md)
+If you're ready to build, go directly to [Quick Start](quick-start.md) and create your first AMCD module in about an hour.
 
-**Want the formula?** Go straight to [the-core-formula.md](the-core-formula.md)
-
----
-
-## The Investment
-
-Your time to learn this system: **2-4 hours**
-
-What you get: A repeatable approach to course design used by professional educators
-
-Alternative: Spend hundreds of hours figuring it out yourself, or create courses that don't work
+If you just want the formula, [The CORE Formula](the-core-formula.md) gives you the four-lesson structure you'll use for everything.
 
 ---
 
-*Create courses that actually transform your students—not just inform them.*
+## The Time Investment
+
+Learning this system takes 2-4 hours.
+
+The alternative is spending hundreds of hours figuring it out yourself through trial and error—or creating courses that technically have content but don't actually teach.
+
+---
+
+*The difference between courses that inform and courses that transform is structure. AMCD gives you that structure.*

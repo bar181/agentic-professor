@@ -4,101 +4,78 @@
 
 ---
 
-## Guide Index
+## About These Guides
 
-| Document | Purpose | Best For |
-|----------|---------|----------|
-| [executive-summary.md](executive-summary.md) | High-level overview for decision makers | C-suite, Board, Department Heads |
-| [methodology-overview.md](methodology-overview.md) | Understanding AMCD and CORE+FLEX | Curriculum Committees, Instructional Designers |
-| [implementation-guide.md](implementation-guide.md) | How to adopt and deploy | Implementation Teams, IT, Operations |
-| [objections-and-evidence.md](objections-and-evidence.md) | Honest answers to common concerns | Skeptics, Risk Assessment |
-| [roi-analysis.md](roi-analysis.md) | Cost-benefit evaluation | Finance, Administration |
-| [case-applications.md](case-applications.md) | Use cases by institution type | Department-specific evaluation |
+These documents are written for institutional decision-makers and implementation teams evaluating the Adaptive Modular Course Design framework. They provide the depth needed for due diligence without the marketing language that wastes your time.
+
+Each guide serves a specific purpose:
+
+**[Executive Summary](executive-summary.md)** provides a five-minute overview for leadership considering whether AMCD merits deeper evaluation. Start here if you need to brief senior stakeholders.
+
+**[Methodology Overview](methodology-overview.md)** explains how AMCD works for curriculum committees and instructional designers who need to understand the pedagogical foundation before recommending adoption.
+
+**[Voice and Persona Examples](voice-and-persona-examples.md)** demonstrates what distinguishes AMCD content from generic AI output. This is essential reading for anyone skeptical about AI-generated educational content—you'll see the actual difference.
+
+**[Objections and Evidence](objections-and-evidence.md)** addresses common concerns directly and honestly. We've included limitations alongside strengths because institutions make better decisions with complete information.
+
+**[Implementation Guide](implementation-guide.md)** provides the practical roadmap for teams ready to pilot AMCD, including timelines, success metrics, and common pitfalls.
+
+**[ROI Analysis](roi-analysis.md)** offers a framework for financial evaluation with realistic assumptions and clear methodology.
+
+**[Case Applications](case-applications.md)** illustrates how AMCD applies across institution types, from universities to corporate training to workforce development.
 
 ---
 
-## What This Is
+## What AMCD Actually Is
 
-The Adaptive Modular Course Design (AMCD) framework represents a synthesis of 12 evidence-based pedagogical principles into a practical, scalable course design methodology. The accompanying Agentic Course Creator (ACC) is an AI-powered system that implements this methodology to accelerate course development while maintaining educational quality.
+At its core, AMCD synthesizes what educational research has learned about effective instruction into a practical, repeatable structure. The framework draws on twelve theoretical foundations—from Bloom's Taxonomy to Cognitive Load Theory—but its value lies in making that research actionable.
 
-### Key Components
+The CORE + FLEX model provides the implementation structure. Every module has four lessons, each designed for a specific pedagogical purpose. CORE ensures consistent quality; FLEX allows adaptation for different learner levels without sacrificing that consistency.
 
-1. **AMCD Framework**: The theoretical foundation based on peer-reviewed educational research
-2. **CORE + FLEX Model**: A practical implementation structure for course modules
-3. **Agentic Course Creator**: An AI system that generates course content following AMCD principles
+The Agentic Course Creator is the AI system that implements AMCD at scale. It generates structured drafts that follow the methodology, which your experts then review and refine. This is a draft generation tool, not a replacement for human expertise—a distinction that matters for how you evaluate it.
 
 ---
 
 ## Who This Is For
 
-### Universities and Colleges
-- Undergraduate and graduate program development
-- Online degree expansion
-- Continuing education offerings
+AMCD applies across the spectrum of educational institutions. Universities use it for program development, online degree expansion, and continuing education. Corporate training departments apply it to skill development, compliance training, and leadership programs. Workforce development organizations—from government agencies to industry associations—find it particularly valuable for certification preparation and reskilling initiatives at scale.
 
-### Corporate Training
-- Employee skill development
-- Compliance training
-- Leadership development programs
-
-### Workforce Development
-- Government training programs
-- Industry certification preparation
-- Reskilling initiatives
-
-### Professional Associations
-- Member education programs
-- Certification courses
-- Conference workshop development
+The common thread: organizations that need to produce high-quality educational content more efficiently than traditional development allows.
 
 ---
 
-## Quick Assessment
+## Honest Assessment of Fit
 
-**AMCD may be a good fit if your institution:**
-- Needs to develop courses faster without sacrificing quality
-- Wants consistent pedagogical structure across programs
-- Seeks to scale course offerings efficiently
-- Values evidence-based instructional design
-- Has instructional designers who can review and refine AI-generated content
+AMCD works well when you have subject matter experts who can validate content and instructional design capacity to evaluate pedagogical quality. The system accelerates your team; it doesn't replace the need for a team.
 
-**AMCD may not be the right fit if your institution:**
-- Requires cutting-edge research content (AI cannot generate novel research)
-- Has no capacity for human review of generated content
-- Prefers completely custom pedagogical approaches
-- Operates in highly regulated domains without compliance expertise
+AMCD is probably not right for you if your primary content involves cutting-edge research (AI cannot generate novel findings), highly regulated domains where you lack compliance expertise, or situations where you have no capacity for human review. The system produces drafts, not finished products—if you can't review them, you shouldn't use them.
 
 ---
 
-## Getting Started
+## How to Use These Guides
 
-1. **Read the Executive Summary** - 5 minutes to understand core value proposition
-2. **Review the Methodology Overview** - 20 minutes to understand how it works
-3. **Check Objections & Evidence** - Find honest answers to your concerns
-4. **Assess Fit** - Use the ROI analysis and case applications
-5. **Connect** - Reach out for consultation
+If you're evaluating AMCD for your institution, start with the Executive Summary (five minutes) and then move to either the Methodology Overview (if you need to understand how it works) or Objections and Evidence (if you're already skeptical). The ROI Analysis and Case Applications help with the business case once you've understood the fundamentals.
+
+If you're already planning implementation, go directly to the Implementation Guide.
 
 ---
 
 ## About the Creator
 
-**Bradley Ross** developed the AMCD framework and Agentic Course Creator based on his experience as a Harvard educator and AI systems expert.
+**Bradley Ross** developed the AMCD framework and Agentic Course Creator from his work at Harvard Graduate School of Education and his expertise in applied AI systems. His focus is on making educational research practical—taking what we know works in learning science and building systems that implement it at scale.
 
-- Harvard Graduate School of Education
-- Applied AI/ML specialist with expertise in agentic systems
-- Focus on practical applications of educational research
+This isn't theoretical work. It's the intersection of pedagogy and engineering, designed to produce courses that actually teach.
 
 **Connect**: [linkedin.com/in/bradleyross](https://linkedin.com/in/bradleyross)
 
 ---
 
-## Important Notes
+## A Note on Claims
 
-- All claims in these guides are supported by referenced research or clearly labeled as projections
-- This system produces high-quality draft content that requires human expert review
-- No AI system can replace subject matter expertise—AMCD accelerates experts, it doesn't replace them
-- Actual results vary based on implementation quality and institutional context
+These guides support claims with referenced research where available and clearly label projections as projections. We've intentionally included limitations alongside strengths because institutional decisions deserve complete information.
+
+The system produces high-quality drafts that require human expert review. That's not a caveat buried in fine print—it's central to how AMCD works. The AI accelerates your experts; it doesn't replace the need for them.
 
 ---
 
-*These guides aim to provide complete information for institutional decision-making. Questions not answered here can be directed to Bradley Ross via LinkedIn.*
+*Questions not addressed in these guides can be directed to Bradley Ross via LinkedIn.*
