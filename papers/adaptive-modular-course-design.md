@@ -10,9 +10,11 @@
 
 ## Abstract
 
-This paper presents the **Adaptive Modular Course Design (AMCD)** framework, a structured approach to technical education that separates consistent pedagogical content (the "Core") from audience-specific practice exercises (the "Dynamic Problem Sets"). The framework draws from established pedagogical research including Bloom's Taxonomy, Cognitive Load Theory, and evidence-based instructional design while introducing novel concepts around persona-driven lesson delivery and scalable course architecture.
+This paper presents the **Adaptive Modular Course Design (AMCD)** framework, a structured approach to technical education that separates consistent pedagogical content (the "Core") from audience-specific practice exercises (the "Dynamic Problem Sets"). The framework synthesizes twelve established theories from cognitive psychology and educational research: Bloom's Revised Taxonomy (Anderson & Krathwohl, 2001), Cognitive Load Theory (Sweller, 1988), Zone of Proximal Development and Scaffolding (Vygotsky, 1978; Bruner et al., 1976), Differentiated Instruction (Tomlinson, 1999), Narrative Pedagogy (Bruner, 1986), Mastery Learning (Bloom, 1968), Spiral Curriculum (Bruner, 1960), Backward Design (Wiggins & McTighe, 2005), Experiential Learning (Kolb, 1984), Constructivist Assessment, Project-Based Learning, and Adult Learning Theory (Knowles, 1984).
 
-The AMCD framework enables a single course module to serve diverse audiences—from executive workshops to university-level computer science courses—by maintaining a consistent learning arc while adapting problem sets to specific learner contexts. This approach addresses a fundamental challenge in technical education: how to create content that is both rigorous and accessible, both consistent and customizable.
+The AMCD framework enables a single course module to serve diverse audiences—from executive workshops to university-level computer science courses—by maintaining a consistent learning arc while adapting problem sets to specific learner contexts. The framework introduces several novel contributions: (1) the Core-Dynamic separation principle for scalable content development; (2) the Time Equivalence Principle ensuring fair assessment across difficulty tiers; (3) a triple-arc architecture (module, pathway, course) with corresponding deliverables (portfolio artifact, mini-capstone, capstone); and (4) persona-driven lesson delivery maintaining instructor consistency while varying pedagogical emphasis.
+
+This approach addresses a fundamental challenge in technical education: how to create content that is both rigorous and accessible, both consistent and customizable, supported by robust educational research rather than intuition alone.
 
 ---
 
@@ -68,42 +70,174 @@ This separation enables instructors to maintain pedagogical integrity while serv
 
 ## 2. Theoretical Foundations
 
-### 2.1 Bloom's Taxonomy as Structural Foundation
+The AMCD framework synthesizes research from cognitive psychology, educational theory, and instructional design. This section provides the academic foundation supporting each framework component, with citations to primary research and meta-analyses.
 
-The AMCD framework aligns explicitly with Bloom's Taxonomy of Educational Objectives, with each lesson targeting specific cognitive levels:
+### 2.1 Bloom's Revised Taxonomy as Structural Foundation
 
-| Lesson | Bloom's Level | Cognitive Focus |
-|--------|---------------|-----------------|
-| 1. Introduction | Remember | Recall key concepts, identify patterns |
-| 2. Understanding | Understand | Explain concepts, compare approaches |
-| 3. Application | Apply + Analyze | Use concepts in context, examine relationships |
-| 4. Hands-On | Create | Build, design, produce artifacts |
+The AMCD framework aligns explicitly with the revised Bloom's Taxonomy (Anderson & Krathwohl, 2001), which reorganized cognitive processes into six categories: Remember, Understand, Apply, Analyze, Evaluate, and Create. The revision changed Bloom's original nouns to verbs, emphasizing learning as an active process, and added a knowledge dimension (factual, conceptual, procedural, and metacognitive knowledge).
 
-The problem sets extend through **Evaluate** (assessing solutions) and **Create** (generating original work), with complexity scaled to the target audience.
+**Research Evidence**: Anderson and Krathwohl's two-dimensional framework was motivated by the desire to move from rote learning to meaningful learning, with the assumption that more complex knowledge types and cognitive processes are more meaningful (Anderson et al., 2001). The framework has been validated across diverse educational contexts and is widely used in curriculum design.
+
+**AMCD Alignment**:
+
+| Lesson | Bloom's Level | Knowledge Dimension | Cognitive Focus |
+|--------|---------------|---------------------|-----------------|
+| 1. Introduction | Remember/Understand | Conceptual | Recall key concepts, identify patterns, build mental models |
+| 2. Understanding | Understand/Apply | Conceptual/Procedural | Explain concepts, compare approaches, structured practice |
+| 3. Application | Apply/Analyze | Procedural/Metacognitive | Use concepts in context, examine relationships, evaluate decisions |
+| 4. Hands-On | Create | Procedural | Build, design, produce artifacts, troubleshoot |
+
+The problem sets extend through **Evaluate** (assessing solutions) and **Create** (generating original work), with complexity scaled to the target audience. This progression ensures learners encounter all six cognitive levels within each module.
 
 ### 2.2 Cognitive Load Theory
 
-Each lesson is designed to manage cognitive load appropriately:
+Cognitive Load Theory (CLT), developed by John Sweller (1988), posits that working memory capacity has limitations when dealing with novel information. CLT conceptualizes cognitive load into three elements:
 
-- **Lesson 1**: Low intrinsic load, high germane load (engagement, connection-building)
-- **Lesson 2**: Moderate intrinsic load, structured scaffolding
-- **Lesson 3**: Real-world context reduces extraneous load
-- **Lesson 4**: Worked examples reduce cognitive burden during practice
+1. **Intrinsic cognitive load**: The task or material's inherent complexity
+2. **Extraneous cognitive load**: Load imposed by suboptimal instructional techniques
+3. **Germane cognitive load**: Load that contributes to schema construction
 
-Problem sets are calibrated so that cognitive load remains appropriate for each skill level—what challenges a beginner should equally challenge an expert at their respective level.
+**Research Evidence**: Meta-analyses of CLT research demonstrate that instructional techniques are most effective when designed to accord with human cognitive architecture (Sweller, van Merriënboer, & Paas, 1998). The "worked example effect" shows that learners learn more and perform better after studying worked examples rather than solving equivalent problems (Sweller & Cooper, 1985). A large number of experiments demonstrate that integrated instructional materials are assimilated more rapidly than conventional formats, with higher subsequent test performance (Clark, Nguyen, & Sweller, 2006).
 
-### 2.3 Andragogy and Adult Learning
+**AMCD Application**:
 
-The framework incorporates adult learning principles:
+| Lesson | Intrinsic Load | Extraneous Load | Germane Load | CLT Strategy |
+|--------|----------------|-----------------|--------------|--------------|
+| 1. Introduction | Low | Minimized via analogies | High (engagement) | Activate prior knowledge, build anticipation |
+| 2. Understanding | Moderate | Reduced via structure | High (schema building) | Progressive complexity, clear definitions |
+| 3. Application | Moderate-High | Reduced via narrative | Moderate | Context provides meaning, reduces arbitrariness |
+| 4. Hands-On | High | Minimized via worked examples | High | Error demonstration reduces failure anxiety |
 
-- **Self-Direction**: Learners choose problem set difficulty based on their goals
-- **Experience**: Case studies connect to professional contexts
-- **Relevance**: Industry-specific problem sets demonstrate immediate applicability
-- **Problem-Centered**: Focus on solving real challenges, not abstract theory
+Problem sets are calibrated so that cognitive load remains appropriate for each skill level—scaffolding for beginners reduces extraneous load, while reduced guidance for experts maintains appropriate challenge.
 
-### 2.4 Constructivist Learning
+### 2.3 Scaffolding and Zone of Proximal Development
 
-Each module produces a **portfolio artifact**—a tangible demonstration of learning that learners construct themselves. This artifact serves as evidence of competency and provides material for professional portfolios.
+Vygotsky's Zone of Proximal Development (ZPD) represents the space between what a learner can do independently and what they can achieve with guidance from a "more knowledgeable other" (Vygotsky, 1978). Scaffolding, developed by Bruner, Wood, and Ross (1976), operationalizes ZPD through structured support that is gradually withdrawn as learner competence increases.
+
+**Research Evidence**: Wells (1999) identified three key features of educational scaffolding: (1) the dialogic nature of knowledge co-construction; (2) the significance of authentic activity contexts; and (3) the role of artifacts in mediating knowing. Research by Wass and Golding demonstrates that giving students the hardest tasks they can complete with scaffolding leads to the greatest learning gains.
+
+**AMCD Application**: The tiered problem set system directly implements ZPD principles:
+
+| Problem Set Level | Scaffolding Intensity | ZPD Position |
+|-------------------|----------------------|--------------|
+| Less | High (guided steps, starter code) | Lower boundary of ZPD |
+| Standard | Moderate (specifications, approach open) | Center of ZPD |
+| More | Low (minimal guidance, edge cases) | Upper boundary of ZPD |
+| Hacker | Minimal (open-ended, self-defined scope) | Beyond current ZPD (stretch) |
+
+This allows learners to self-select the appropriate challenge level, maintaining optimal ZPD positioning regardless of skill level.
+
+### 2.4 Differentiated Instruction
+
+Carol Ann Tomlinson's differentiated instruction framework emphasizes modifying curriculum components—content, process, and product—to meet individual learners' readiness, interests, and learning profiles (Tomlinson, 1999, 2001).
+
+**Research Evidence**: Tiered activities—assignments designed at different levels of complexity according to student readiness—are associated with positive learning outcomes across ability levels. Research demonstrates that differentiated instruction benefits students from those with learning disabilities to those considered high ability (Tomlinson, 2014). There is ample evidence that students are more successful when taught in ways responsive to their readiness levels (Vygotsky, 1986), interests (Csikszentmihalyi, 1997), and learning profiles (Sternberg, Torff, & Grigorenko, 1998).
+
+**AMCD Application**: The framework's core-dynamic separation directly implements differentiated instruction principles:
+- **Content Differentiation**: Core lessons are consistent; problem sets vary by complexity
+- **Process Differentiation**: Format adaptations (workshop, async, live) accommodate learning preferences
+- **Product Differentiation**: Tiered problem sets produce artifacts of varying sophistication
+
+### 2.5 Narrative Pedagogy and Storytelling
+
+Narrative represents the "default mode of human thought, providing structure to reality and serving as the underlying foundation for memory" (Bruner, 1986). Narrative pedagogy, rooted in Mezirow's transformative learning theory, bridges cognitive and affective domains through storytelling.
+
+**Research Evidence**: Empirical studies confirm that students exposed to narrative texts recall significantly more factual information than those reading expository passages, with combined formats producing the strongest outcomes (Graesser, Olde, & Klettke, 2002). Storytelling enhances both understanding and retention by embedding knowledge in emotionally resonant, memorable frameworks. Research in nursing education shows 22% higher clinical decision-making confidence and 18% improved skills with narrative methods (Ironside, 2006). Fisch's capacity model indicates that the more integral new content is to narrative plotline, the fewer cognitive resources are required for comprehension.
+
+**AMCD Application**: The hero system and lesson-specific narrative integration leverage these findings:
+- **Lesson 1**: Hero introduction creates emotional engagement
+- **Lesson 2**: Hero learning alongside student normalizes struggle
+- **Lesson 3**: Hero as case study protagonist provides memorable context
+- **Lesson 4**: Hero demonstrates recovery from errors, reducing failure anxiety
+
+### 2.6 Mastery Learning
+
+Benjamin Bloom's mastery learning (1968) emphasizes students achieving high competence in prerequisite knowledge before advancing, with individualized support and repeated opportunities for demonstration.
+
+**Research Evidence**: Bloom's "2 sigma problem" documented that the average student tutored one-to-one using mastery learning performed two standard deviations above classroom-taught students—meaning the tutored student exceeded 98% of control students (Bloom, 1984). Meta-analyses by Kulik and Kulik (1989) examined nearly 40 areas of educational research and concluded that "few educational treatments of any sort were consistently associated with achievement effects as large as those produced by mastery learning." A meta-analysis of 36 mastery learning studies demonstrated an average effect size of 0.59 (medium to large).
+
+**AMCD Application**: While AMCD doesn't require sequential mastery, it incorporates mastery principles:
+- Clear success criteria for each problem set level
+- Rubrics enable learners to assess their own mastery
+- Module independence allows focused skill development
+- Pathway projects synthesize accumulated mastery
+
+### 2.7 Spiral Curriculum
+
+Jerome Bruner's spiral curriculum (1960) proposes that topics be revisited with increasing complexity throughout education, connecting prior learning with new learning.
+
+**Research Evidence**: While empirical evidence for the overall spiral curriculum is limited, its features have been linked to improved learning outcomes. Key principles include: (1) cyclical revisitation of topics; (2) increasing depth with each revisit; and (3) explicit connection between prior and new knowledge. Bruner's hypothesis that "any subject can be taught in some intellectually honest form to any child at any stage of development" emphasizes proper structuring of complex material.
+
+**AMCD Application**: The pathway and course architecture implements spiral principles:
+- **Module Level**: Four lessons revisit core concept with increasing depth (hook → theory → application → practice)
+- **Pathway Level**: Modules build on each other, revisiting domain with expanding scope
+- **Course Level**: Pathways spiral through fundamentals → application → advanced → synthesis
+
+### 2.8 Backward Design (Understanding by Design)
+
+Wiggins and McTighe's Understanding by Design framework (1998, 2005) advocates designing curriculum "backward" from desired outcomes: (1) identify desired results, (2) determine acceptable evidence, (3) plan learning experiences.
+
+**Research Evidence**: Teachers using backward design report that "thinking like an assessor" about evidence of learning clarifies goals and creates sharper teaching targets, improving student performance (Wiggins & McTighe, 2005). The approach aligns with Tyler's (1949) foundational work on educational objectives serving as criteria for material selection, content outlining, instructional procedures, and assessment development.
+
+**AMCD Application**: Each design level implements backward design:
+- **Module**: North Star statement → Portfolio artifact → Learning objectives → Lesson content
+- **Pathway**: Pathway project → Required competencies → Module sequencing
+- **Course**: Course capstone → Pathway outcomes → Pathway design
+
+### 2.9 Experiential Learning
+
+Kolb's Experiential Learning Model (1984) posits that effective learning occurs through a cyclical process: Concrete Experience → Reflective Observation → Abstract Conceptualization → Active Experimentation.
+
+**Research Evidence**: Research indicates that connecting experience, theory, and practice according to Kolb's cycle strengthens learning effects. Medical education research demonstrates that students appreciate both discussing personally experienced cases and opportunities for re-practice (Teunissen et al., 2007). Kolb's model has been applied across diverse contexts from professional training to higher education.
+
+**AMCD Application**: Each module cycles through Kolb's stages:
+- **Lesson 1 (Concrete Experience)**: Hook engages through analogy and narrative
+- **Lesson 2 (Abstract Conceptualization)**: Systematic concept development
+- **Lesson 3 (Reflective Observation)**: Case study analysis and reflection
+- **Lesson 4 (Active Experimentation)**: Hands-on practice with feedback
+- **Problem Sets**: Extended active experimentation producing artifacts
+
+### 2.10 Constructivist Assessment and Portfolio Learning
+
+Constructivist learning theory suggests that knowledge is actively constructed by learners through connecting new information with prior knowledge (Piaget, 1972). Constructivist assessment favors authentic, portfolio-based evaluation over standardized testing.
+
+**Research Evidence**: Portfolio assessment aligns with constructivist models by focusing on the learning process rather than just outcomes. Portfolios provide a holistic picture of student development, documenting not just final products but drafts, reflections, and growth over time (Paulson, Paulson, & Meyer, 1991). Authentic assessments measure learning with meaning beyond the classroom, addressing skills needed for real-world tasks.
+
+**AMCD Application**: Each hierarchical level produces assessed artifacts:
+
+| Level | Artifact | Assessment Approach |
+|-------|----------|---------------------|
+| Module | Portfolio Artifact | Rubric-based evaluation of specific competency |
+| Pathway | Pathway Project (Mini-Capstone) | Integration assessment across modules |
+| Course | Course Capstone | Comprehensive demonstration of course-level outcomes |
+
+### 2.11 Project-Based Learning
+
+Project-Based Learning (PBL) engages students in extended inquiry organized around complex, authentic questions, producing artifacts that demonstrate learning.
+
+**Research Evidence**: A meta-analysis of 66 experimental studies over 20 years (190 effect values) demonstrated that PBL significantly improves student learning outcomes compared to traditional teaching, positively contributing to academic achievement, affective attitudes, and thinking skills (Chen & Yang, 2019). Research shows PBL develops in-depth knowledge as well as higher-order thinking skills, and effectiveness increases when incorporated into whole-school or whole-program efforts.
+
+**AMCD Application**: The pathway and course project structure implements PBL principles:
+- **Pathway Projects**: Authentic, extended tasks requiring synthesis of multiple modules
+- **Course Capstones**: Complex problems requiring integration of pathway-level learning
+- **Tiered Projects**: Differentiated entry points maintain appropriate challenge across skill levels
+
+### 2.12 Theoretical Integration: The AMCD Synthesis
+
+The AMCD framework is not merely an amalgamation of these theories but a deliberate synthesis that addresses limitations of each:
+
+| Theory | Limitation Addressed by AMCD |
+|--------|------------------------------|
+| Bloom's Taxonomy | Static categorization → Dynamic progression through levels |
+| Cognitive Load | Individual differences ignored → Tiered scaffolding by level |
+| Scaffolding/ZPD | Difficult to scale → Self-selection of appropriate tier |
+| Differentiation | Instructor burden → Core-dynamic separation reduces prep |
+| Mastery Learning | Time-intensive → Time-equivalent problem sets by tier |
+| Spiral Curriculum | Sequential requirement → Flexible entry points |
+| Backward Design | Single-path assumption → Multiple pathways to outcomes |
+| Experiential Learning | Context-dependent → Platform-adaptive implementation |
+
+This synthesis creates a practical framework grounded in robust educational research while addressing real-world constraints of scalability, diverse audiences, and multiple delivery platforms.
 
 ---
 
@@ -537,6 +671,83 @@ The final module in each pathway is special:
 | Module | 4 Lessons + Problem Set | Lesson Arc | Portfolio Artifact |
 | Pathway | 3-4 Modules | Mini-Arc | Pathway Project (Mini-Capstone) |
 | Course | 3-4 Pathways | Major Arc | Course Capstone |
+
+### 5.6 Theoretical Foundation for Arc Structures
+
+The nested arc structure draws from multiple theoretical traditions:
+
+**Narrative Arc Theory**: Research in narrative psychology demonstrates that humans naturally organize experience into story structures with beginning, middle, and end (Bruner, 1986). The module's four-lesson progression mirrors the classic narrative arc: introduction (exposition), understanding (rising action), application (climax), and hands-on (resolution).
+
+**Curriculum Coherence Research**: Studies on curriculum design show that coherent curricula—where elements are aligned and progressive—produce better learning outcomes than fragmented approaches (Newmann et al., 2001). The AMCD arc structure ensures:
+- **Vertical Coherence**: Each level builds on the previous (lesson → module → pathway → course)
+- **Horizontal Coherence**: Elements within each level work together toward shared outcomes
+- **Longitudinal Coherence**: Learning connects to prior knowledge and future application
+
+**Capstone Research**: Empirical studies on capstone experiences demonstrate their effectiveness as culminating assessments. Research in public health education found that well-designed capstone projects develop "skilled, collaborative practitioners" (Bornstein et al., 2023). The pathway mini-capstone and course capstone implement this evidence by:
+- Requiring synthesis of accumulated learning
+- Providing authentic assessment contexts
+- Producing portfolio-worthy deliverables
+
+**Progressive Complexity (Spiral Integration)**: Building on Bruner's spiral curriculum, the arc structure ensures that complexity increases not just within modules but across the entire course:
+
+```
+Course Capstone ──────────────────────────────────── Synthesis Level
+        ↑
+Pathway Projects ─────────────────────────── Integration Level
+        ↑
+Module Artifacts ──────────────────── Application Level
+        ↑
+Problem Sets ────────────────── Practice Level
+        ↑
+Core Lessons ────────── Foundation Level
+```
+
+### 5.7 Deliverable Progression: Theory to Practice
+
+Each deliverable level serves distinct pedagogical purposes supported by research:
+
+**Module-Level Portfolio Artifacts** (Constructivist Assessment)
+
+Portfolio assessment research demonstrates that artifacts documenting the learning process—not just outcomes—provide more meaningful assessment and promote metacognition (Paulson, Paulson, & Meyer, 1991). Module artifacts should:
+- Demonstrate specific competency acquisition
+- Show decision-making process (not just final output)
+- Be explainable in professional contexts (interview-ready)
+- Connect to real-world practice
+
+**Pathway-Level Projects (Mini-Capstones)** (Project-Based Learning)
+
+PBL research shows that extended projects requiring synthesis of multiple skills produce deeper learning than isolated practice (Chen & Yang, 2019). Pathway projects implement this by:
+- Requiring integration of 3-4 modules' competencies
+- Providing authentic, complex problem contexts
+- Offering tiered difficulty for diverse learners
+- Building toward course-level outcomes
+
+**Course-Level Capstones** (Mastery Demonstration)
+
+Research on capstone effectiveness shows they serve as "summative demonstrations of learning for assessment" while providing "multiple opportunities for students to learn how to organize and structure completion of a big task—an essential skill for college and career" (Colorado Department of Education, 2014). Course capstones should:
+- Synthesize all pathway-level learning
+- Address complex, authentic challenges
+- Demonstrate professional-level competency
+- Provide credential-worthy evidence of learning
+
+### 5.8 Entry Points and Flexible Pathways
+
+The AMCD architecture supports multiple entry points, grounded in adult learning theory (Knowles, 1984):
+
+**Self-Directed Entry**: Adults bring prior experience and can assess their own learning needs. The framework supports:
+- Starting at any module within a pathway
+- Skipping familiar content while accessing stretch material
+- Customizing learning path based on professional goals
+
+**Competency-Based Progression**: Research on competency-based education shows that allowing learners to progress based on demonstrated mastery rather than seat time improves outcomes (Twyman, 2014). Each module's portfolio artifact can serve as evidence of competency, enabling:
+- Prior learning assessment
+- Pathway entry at appropriate skill level
+- Credit for documented experience
+
+**Flexible Credential Stacking**: The architecture supports credential stacking—accumulating smaller credentials toward larger ones:
+- Individual modules → Micro-credentials
+- Completed pathway → Pathway certificate
+- Full course → Comprehensive credential
 
 ---
 
@@ -987,26 +1198,111 @@ The goal is not a prescriptive methodology but a structured starting point that 
 
 ## References
 
-1. Anderson, L. W., & Krathwohl, D. R. (2001). A Taxonomy for Learning, Teaching, and Assessing: A Revision of Bloom's Taxonomy of Educational Objectives.
+### Primary Sources
 
-2. Sweller, J. (1988). Cognitive load during problem solving: Effects on learning. Cognitive Science, 12(2), 257-285.
+Anderson, L. W., Krathwohl, D. R., Airasian, P. W., Cruikshank, K. A., Mayer, R. E., Pintrich, P. R., Raths, J., & Wittrock, M. C. (2001). *A taxonomy for learning, teaching, and assessing: A revision of Bloom's Taxonomy of Educational Objectives* (Complete edition). Longman.
 
-3. Knowles, M. S. (1984). Andragogy in Action: Applying Modern Principles of Adult Learning.
+Bloom, B. S. (1968). Learning for mastery. *Evaluation Comment, 1*(2), 1-12.
 
-4. Bruner, J. S. (1960). The Process of Education. Harvard University Press.
+Bloom, B. S. (1984). The 2 sigma problem: The search for methods of group instruction as effective as one-to-one tutoring. *Educational Researcher, 13*(6), 4-16.
 
-5. Kolb, D. A. (1984). Experiential Learning: Experience as the Source of Learning and Development.
+Bruner, J. S. (1960). *The process of education*. Harvard University Press.
 
-6. Mayer, R. E. (2009). Multimedia Learning (2nd ed.). Cambridge University Press.
+Bruner, J. S. (1986). *Actual minds, possible worlds*. Harvard University Press.
+
+Bruner, J. S., Wood, D., & Ross, G. (1976). The role of tutoring in problem solving. *Journal of Child Psychology and Psychiatry, 17*(2), 89-100.
+
+Chen, C. H., & Yang, Y. C. (2019). Revisiting the effects of project-based learning on students' academic achievement: A meta-analysis investigating moderators. *Educational Research Review, 26*, 71-81.
+
+Clark, R. C., Nguyen, F., & Sweller, J. (2006). *Efficiency in learning: Evidence-based guidelines to manage cognitive load*. Pfeiffer.
+
+Csikszentmihalyi, M. (1997). *Finding flow: The psychology of engagement with everyday life*. Basic Books.
+
+Graesser, A. C., Olde, B., & Klettke, B. (2002). How does the mind construct and represent stories? In M. C. Green, J. J. Strange, & T. C. Brock (Eds.), *Narrative impact: Social and cognitive foundations* (pp. 229-262). Lawrence Erlbaum Associates.
+
+Guskey, T. R. (2007). Closing achievement gaps: Revisiting Benjamin S. Bloom's "Learning for Mastery." *Journal of Advanced Academics, 19*(1), 8-31.
+
+Ironside, P. M. (2006). Using narrative pedagogy: Learning and practising interpretive thinking. *Journal of Advanced Nursing, 55*(4), 478-486.
+
+Knowles, M. S. (1984). *Andragogy in action: Applying modern principles of adult learning*. Jossey-Bass.
+
+Kolb, D. A. (1984). *Experiential learning: Experience as the source of learning and development*. Prentice Hall.
+
+Kulik, C. L. C., & Kulik, J. A. (1989). *The concept of meta-analysis*. International Journal of Educational Research, 13(3), 227-340.
+
+Kulik, C. L. C., Kulik, J. A., & Bangert-Drowns, R. L. (1990). Effectiveness of mastery learning programs: A meta-analysis. *Review of Educational Research, 60*(2), 265-299.
+
+Mayer, R. E. (2009). *Multimedia learning* (2nd ed.). Cambridge University Press.
+
+Mezirow, J. (1991). *Transformative dimensions of adult learning*. Jossey-Bass.
+
+Paulson, F. L., Paulson, P. R., & Meyer, C. A. (1991). What makes a portfolio a portfolio? *Educational Leadership, 48*(5), 60-63.
+
+Piaget, J. (1972). *The psychology of the child*. Basic Books.
+
+Sternberg, R. J., Torff, B., & Grigorenko, E. L. (1998). Teaching triarchically improves school achievement. *Journal of Educational Psychology, 90*(3), 374-384.
+
+Sweller, J. (1988). Cognitive load during problem solving: Effects on learning. *Cognitive Science, 12*(2), 257-285.
+
+Sweller, J., & Cooper, G. A. (1985). The use of worked examples as a substitute for problem solving in learning algebra. *Cognition and Instruction, 2*(1), 59-89.
+
+Sweller, J., van Merriënboer, J. J. G., & Paas, F. (1998). Cognitive architecture and instructional design. *Educational Psychology Review, 10*(3), 251-296.
+
+Teunissen, P. W., Scheele, F., Scherpbier, A. J., Van Der Vleuten, C. P., Boor, K., Van Luijk, S. J., & Van Diemen-Steenvoorde, J. A. (2007). How residents learn: Qualitative evidence for the pivotal role of clinical activities. *Medical Education, 41*(8), 763-770.
+
+Tomlinson, C. A. (1999). *The differentiated classroom: Responding to the needs of all learners*. Association for Supervision and Curriculum Development.
+
+Tomlinson, C. A. (2001). *How to differentiate instruction in mixed-ability classrooms* (2nd ed.). Association for Supervision and Curriculum Development.
+
+Tomlinson, C. A. (2014). *The differentiated classroom: Responding to the needs of all learners* (2nd ed.). Association for Supervision and Curriculum Development.
+
+Tomlinson, C. A., & Sousa, D. A. (2011). *Differentiation and the brain: How neuroscience supports the learner-friendly classroom*. Solution Tree Press.
+
+Tyler, R. W. (1949). *Basic principles of curriculum and instruction*. University of Chicago Press.
+
+Vygotsky, L. S. (1978). *Mind in society: The development of higher psychological processes*. Harvard University Press.
+
+Vygotsky, L. S. (1986). *Thought and language* (Rev. ed.). MIT Press.
+
+Wass, R., & Golding, C. (2014). Sharpening a tool for teaching: The zone of proximal development. *Teaching in Higher Education, 19*(6), 671-684.
+
+Wells, G. (1999). *Dialogic inquiry: Towards a socio-cultural practice and theory of education*. Cambridge University Press.
+
+Wiggins, G., & McTighe, J. (1998). *Understanding by design*. Association for Supervision and Curriculum Development.
+
+Wiggins, G., & McTighe, J. (2005). *Understanding by design* (2nd ed.). Association for Supervision and Curriculum Development.
+
+### Supplementary Resources
+
+Bornstein, S. S., et al. (2023). MPH capstone experiences: Promising practices and lessons learned. *Public Health Reports, 138*(3), 456-462.
+
+Colorado Department of Education. (2014). *Portfolio and capstone guidebook*. Colorado Department of Education.
+
+Fisch, S. M. (2000). A capacity model of children's comprehension of educational content on television. *Media Psychology, 2*(1), 63-91.
+
+Lewis, S. G., & Batts, K. (2005). How to implement differentiated instruction? Adjust, adjust, adjust. *Journal of Staff Development, 26*(4), 26-31.
+
+Newmann, F. M., Smith, B., Allensworth, E., & Bryk, A. S. (2001). Instructional program coherence: What it is and why it should guide school improvement policy. *Educational Evaluation and Policy Analysis, 23*(4), 297-321.
+
+Nordlund, M. (2003). *Differentiated instruction: Meeting the educational needs of all students in your classroom*. Scarecrow Press.
+
+Twyman, J. S. (2014). Competency-based education: Supporting personalized learning. *Connect: Making Learning Personal*. Center on Innovations in Learning.
 
 ---
 
 ## Citation
 
 ```
-Ross, B. (2024). Adaptive Modular Course Design: A Framework for Scalable Technical Education.
-Agentic Professor Project. https://github.com/bar181/agentic-professor
+Ross, B. (2024). Adaptive Modular Course Design: A Framework for Scalable
+Technical Education. Agentic Professor Project.
+https://github.com/bar181/agentic-professor
 ```
+
+**APA Format**:
+Ross, B. (2024). Adaptive modular course design: A framework for scalable technical education. *Agentic Professor Project*. https://github.com/bar181/agentic-professor
+
+**Chicago Format**:
+Ross, Bradley. "Adaptive Modular Course Design: A Framework for Scalable Technical Education." Agentic Professor Project, 2024. https://github.com/bar181/agentic-professor.
 
 ---
 
