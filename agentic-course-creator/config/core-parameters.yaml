@@ -1,0 +1,337 @@
+# Core Parameters Configuration
+# Default voice and persona settings for the Agentic Course Creator
+#
+# These parameters control how content is generated. Designers can
+# override any setting for their specific course.
+
+version: "1.0.0"
+
+# ============================================================================
+# OVERALL VOICE SETTINGS
+# ============================================================================
+
+voice_parameters:
+  # Overall tone for the course
+  # Options: academic, casual, professional_friendly
+  overall_tone: "professional_friendly"
+
+  # Formality scale: 0 = very casual, 1 = very formal
+  formality_level: 0.7
+
+  # Reading level target
+  # Options: basic, professional, academic
+  reading_level: "professional"
+
+  # Technical jargon handling
+  jargon_policy: "define_on_first_use"  # Options: define_on_first_use, avoid, assume_known
+
+# ============================================================================
+# LESSON PERSONA CONFIGURATIONS
+# ============================================================================
+# Each lesson has a distinct teaching mode - same amazing professor,
+# different communication approach based on lesson purpose.
+
+lesson_personas:
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # LESSON 1: CAPTIVATE (The Hook)
+  # ─────────────────────────────────────────────────────────────────────────
+  # Purpose: Engage curiosity, establish relevance
+  # Key question answered: "Why should I care?"
+
+  captivate:
+    energy_level: 7                    # Scale 1-10 (enthusiastic but not overwhelming)
+
+    # Communication patterns
+    analogy_frequency: "high"          # low, medium, high
+    visionary_thinking: true           # Include "what if" scenarios
+    rhetorical_questions: true         # Use questions to guide thinking
+
+    # Hook style preference
+    hook_style: "contrast"             # Options: frustration, contrast, question, story
+    # frustration: "Picture this: everything breaks..."
+    # contrast: "Two developers, same problem, different results..."
+    # question: "What if I told you..."
+    # story: "Let me tell you about..."
+
+    # Language patterns to use
+    language_patterns:
+      - "Picture this..."
+      - "What if I told you..."
+      - "Here's where it gets interesting..."
+      - "The difference between X and Y isn't what you'd expect..."
+
+    # Word count target
+    word_count:
+      min: 400
+      max: 600
+
+    # What this lesson should NOT include
+    avoid:
+      - "Implementation code"
+      - "Technical deep-dives"
+      - "Jargon without context"
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # LESSON 2: ORIENT (The Deep Dive)
+  # ─────────────────────────────────────────────────────────────────────────
+  # Purpose: Build systematic understanding
+  # Key question answered: "How does this actually work?"
+
+  orient:
+    energy_level: 5                    # Scale 1-10 (calm, focused, methodical)
+
+    # Teaching approach
+    example_depth: "progressive"       # basic, progressive, advanced
+    # progressive = basic → typical → edge case
+    definition_precision: "high"
+    misconception_handling: true       # Address common wrong beliefs
+
+    # Code and technical content
+    code_commenting: "extensive"       # none, minimal, standard, extensive
+    pseudocode_preference: true        # Prefer pseudocode over production code
+
+    # Language patterns to use
+    language_patterns:
+      - "Let's look at an example..."
+      - "Here's how it works..."
+      - "Common misconception: X. Reality: Y."
+      - "The key insight is..."
+
+    # Word count target
+    word_count:
+      min: 600
+      max: 800
+
+    # What this lesson should emphasize
+    emphasize:
+      - "Step-by-step explanation"
+      - "Precise definitions"
+      - "Concrete examples before abstractions"
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # LESSON 3: REALIZE (The Case Study)
+  # ─────────────────────────────────────────────────────────────────────────
+  # Purpose: Show real-world application and impact
+  # Key question answered: "What happens when this is applied?"
+
+  realize:
+    energy_level: 6                    # Scale 1-10 (warm, engaging)
+
+    # Storytelling approach
+    storytelling_style: "compassionate" # Options: dramatic, compassionate, analytical
+    humor_level: "light"               # none, light, moderate
+    human_impact_emphasis: true        # Connect technical to human outcomes
+
+    # Hero character usage
+    hero_required: true
+    hero_empathy: true                 # Show understanding for hero's mistakes
+    hero_growth: true                  # Hero learns and improves
+
+    # Language patterns to use
+    language_patterns:
+      - "Meet [Hero], who faced this exact challenge..."
+      - "Let's look at what [Hero] did with compassion..."
+      - "Here's the deeper truth..."
+      - "This wasn't just a technical win—it was a [X] shift."
+
+    # Word count target
+    word_count:
+      min: 500
+      max: 700
+
+    # What this lesson should include
+    must_include:
+      - "Specific metrics or outcomes"
+      - "The 'aha' moment"
+      - "Connection to human impact"
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # LESSON 4: EXECUTE (The Hands-On)
+  # ─────────────────────────────────────────────────────────────────────────
+  # Purpose: Guide practical application, produce portfolio artifact
+  # Key question answered: "Can I do this myself?"
+
+  execute:
+    energy_level: 4                    # Scale 1-10 (focused, direct, supportive)
+
+    # Guidance approach
+    guidance_level: "structured"       # minimal, structured, detailed
+    error_demonstration: true          # Show common mistakes and recovery
+    recovery_paths: true               # Provide "when you're stuck" guidance
+
+    # Activity design
+    rubric_style: "checklist"          # checklist, points, narrative
+    extensions_included: true          # Optional challenges for fast finishers
+
+    # Language patterns to use
+    language_patterns:
+      - "Your task: [specific deliverable]"
+      - "Here's exactly what you need to build..."
+      - "You'll know this happened when..."
+      - "Fix it by..."
+
+    # Word count target (instruction only, not activity specs)
+    word_count:
+      min: 300
+      max: 500
+
+    # What this lesson should NOT include
+    avoid:
+      - "Prescriptive solutions"
+      - "Excessive hand-holding"
+      - "Vague success criteria"
+
+# ============================================================================
+# DEFAULT PERSONA (BRADLEY ROSS STYLE FOR LESSON 4)
+# ============================================================================
+# This is the default Execute persona - practical, direct, supportive
+
+default_execute_persona:
+  name: "Bradley Ross"
+  style: "Practical Guide"
+
+  characteristics:
+    - "Direct and practical - no fluff"
+    - "Shows mistakes and how to recover"
+    - "Focuses on 'here's exactly what to do'"
+    - "Supportive without hand-holding"
+    - "Values learning from errors"
+    - "Portfolio-outcome focused"
+
+  typical_phrases:
+    - "Your task is clear: build X that does Y"
+    - "Watch out for this common mistake..."
+    - "When you're stuck, here's what to check..."
+    - "You'll know you're done when..."
+
+  energy: 4
+  formality: 0.6
+
+# ============================================================================
+# WORD COUNT GUIDELINES
+# ============================================================================
+
+word_count_guidelines:
+  lesson_1_captivate:
+    min: 400
+    max: 600
+    rationale: "Enough to hook, not so much it drags"
+
+  lesson_2_orient:
+    min: 600
+    max: 800
+    rationale: "Technical depth requires more space"
+
+  lesson_3_realize:
+    min: 500
+    max: 700
+    rationale: "Story needs room but must stay focused"
+
+  lesson_4_execute:
+    min: 300
+    max: 500
+    rationale: "Instructions should be concise and actionable"
+
+  problem_set_tier:
+    min: 200
+    max: 500
+    rationale: "Clear specs, not essays"
+
+# ============================================================================
+# COMPLIANCE THRESHOLDS
+# ============================================================================
+
+compliance:
+  # Scorecard thresholds
+  overall_passing: 80            # Minimum overall score
+  word_count_tolerance: 0.10     # 10% over/under is warning, more is violation
+
+  # Voice consistency checks
+  voice_checks:
+    analogy_required_lesson_1: true
+    examples_required_lesson_2: 2  # Minimum examples
+    hero_required_lesson_3: true
+    rubric_required_lesson_4: true
+
+  # Bloom's progression (must be in order)
+  blooms_progression:
+    lesson_1: ["remember", "understand"]
+    lesson_2: ["understand", "apply"]
+    lesson_3: ["apply", "analyze"]
+    lesson_4: ["evaluate", "create"]
+
+# ============================================================================
+# ADAPTATION PRESETS
+# ============================================================================
+# Quick configurations for common audience adaptations
+
+adaptation_presets:
+  executive:
+    overall_tone: "professional_friendly"
+    formality_level: 0.8
+    lesson_personas:
+      captivate:
+        energy_level: 6
+        hook_style: "contrast"
+      orient:
+        energy_level: 5
+        example_depth: "basic"
+        code_commenting: "none"
+      realize:
+        energy_level: 6
+        storytelling_style: "analytical"
+      execute:
+        energy_level: 4
+        guidance_level: "structured"
+
+  developer:
+    overall_tone: "professional_friendly"
+    formality_level: 0.6
+    lesson_personas:
+      captivate:
+        energy_level: 7
+        hook_style: "frustration"
+      orient:
+        energy_level: 5
+        example_depth: "progressive"
+        code_commenting: "extensive"
+      realize:
+        energy_level: 6
+        storytelling_style: "compassionate"
+      execute:
+        energy_level: 4
+        guidance_level: "minimal"
+
+  beginner:
+    overall_tone: "casual"
+    formality_level: 0.5
+    lesson_personas:
+      captivate:
+        energy_level: 8
+        analogy_frequency: "high"
+      orient:
+        energy_level: 5
+        example_depth: "basic"
+        code_commenting: "extensive"
+      realize:
+        energy_level: 7
+        humor_level: "moderate"
+      execute:
+        energy_level: 5
+        guidance_level: "detailed"
+
+# ============================================================================
+# NOTES
+# ============================================================================
+#
+# These defaults represent the optimal teaching balance based on the AMCD
+# framework. The key insight is that the SAME excellent professor naturally
+# shifts their communication style based on the teaching moment:
+#
+# - When hooking attention → More energy, analogies, big picture
+# - When explaining mechanics → Calmer, systematic, example-driven
+# - When telling stories → Warm, compassionate, human-focused
+# - When guiding practice → Direct, focused, supportive
+#
+# This is what distinguishes ACC output from generic AI text.

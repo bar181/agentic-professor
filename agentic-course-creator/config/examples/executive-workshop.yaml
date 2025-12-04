@@ -1,0 +1,92 @@
+# Example: Executive AI Workshop (Half-Day)
+# Duration: 4 hours
+
+course:
+  title: "AI Agents for Business Leaders"
+  topic: "Strategic understanding of AI agent capabilities and implementation considerations"
+  description: |
+    A condensed executive workshop on AI agents—what they can do, where they add value,
+    and how to evaluate AI agent initiatives for your organization.
+  version: "1.0.0"
+  domain: "business"
+
+audience:
+  primary: "C-suite executives and VPs"
+  secondary: "Senior managers evaluating AI investments"
+  level: "beginner"  # Technical beginners, business experts
+  prerequisites:
+    - "Basic understanding of AI/ChatGPT"
+    - "Business leadership experience"
+  roles:
+    - "CEO"
+    - "CTO"
+    - "VP of Engineering"
+    - "VP of Product"
+
+parameters:
+  total_hours: 4
+  reading_level: "professional"
+  difficulty: "easy"
+  ai_content_ratio: 0.9
+  detail_level: "concise"
+  code_heavy: false
+
+structure:
+  pathways: 1
+  modules_per_pathway: 2
+  lessons_per_module: 4
+  include_capstone: false
+  include_mini_capstones: true
+  pathway_names:
+    - "Strategic AI Agent Overview"
+
+problem_sets:
+  tier_count: 1
+  tiers:
+    - name: "Executive"
+      target: "Strategic decision-makers"
+      scaffolding: "high"
+  time_per_tier: 30
+  grading_policy: "max"
+  role_based: true
+
+delivery:
+  format: "live_virtual"
+  platform: "notion"
+  video_scripts: false
+  workshop_variant: true
+  workshop_duration: "half_day"
+  interactive_elements: true
+
+hero:
+  name: "Jordan"
+  role: "CEO of a mid-size SaaS company"
+  context: "Evaluating AI investments for competitive advantage"
+  personality: "Skeptical but open-minded, needs business case"
+  arc: "From AI skeptic to informed AI strategy champion"
+
+source_materials:
+  case_studies:
+    - "Enterprise AI agent deployment at Fortune 500"
+    - "Startup AI agent success story"
+    - "AI agent failure case study"
+
+customization:
+  terminology:
+    "code": "implementation"
+    "API": "integration point"
+    "prompt": "instruction"
+  excluded_topics:
+    - "Code implementation details"
+    - "Technical architecture diagrams"
+  required_topics:
+    - "ROI calculation"
+    - "Risk assessment"
+    - "Vendor evaluation criteria"
+    - "Team readiness assessment"
+
+quality:
+  review_enabled: true
+  bloom_validation: false  # Different for executives
+  voice_consistency: true
+  minimum_quality_score: 80

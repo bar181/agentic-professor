@@ -1,80 +1,176 @@
-# Agentic Professor
+# Adaptive Modular Course Design (AMCD)
 
-**Structured course design template for technical education**
+> *A research-backed instructional design methodology for scalable, adaptable course creation—with an exploratory AI implementation concept.*
 
-Create computer science, AI, and software engineering courses with clear learning objectives, voice-consistent lessons, and portfolio-ready deliverables.
+**A Research-Informed Framework for Designing Scalable Technical Education**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-2.0.0-green.svg)](CHANGELOG.md)
 
-> **Note:** This is an original course design framework based on established pedagogical principles (Bloom's taxonomy, cognitive load theory, outcome-focused learning). It does not reproduce or include any copyrighted course materials, lecture content, or proprietary educational resources from any institution or instructor.
+---
+
+## Purpose of This Repository
+
+This repository presents the **Adaptive Modular Course Design (AMCD)** methodology—a research-informed instructional framework for designing high-quality technical education with consistency, adaptability, and pedagogical rigor.
+
+**AMCD is the core contribution.**
+
+It establishes a repeatable process for designing and scaling course content while maintaining instructional integrity across audiences, delivery formats, and instructional teams.
+
+> **Note:** This is an original course design framework synthesizing established pedagogical principles (Bloom's taxonomy, cognitive load theory, Vygotsky's scaffolding, narrative pedagogy, and others). It does not reproduce or include any copyrighted course materials, lecture content, or proprietary educational resources from any institution or instructor.
 
 ---
 
-## What This Is
+## The AMCD Framework
 
-A production-ready course design template that provides:
+### The Problem AMCD Addresses
 
-- **4-lesson module structure** with clear pedagogical progression
-- **Bloom's taxonomy learning objectives** for measurable outcomes
-- **Voice-guided instruction patterns** for consistent teaching quality
-- **Portfolio-focused deliverables** that students can showcase
-- **Structured format** suitable for human educators and AI course generation
+Technical education faces a fundamental tension: courses designed for beginners often bore advanced learners, while rigorous academic content alienates practical practitioners. Instructors frequently create entirely separate courses for different audiences, duplicating effort and fragmenting quality.
 
-Built for universities, bootcamps, professional training programs, and AI-assisted course creation.
+### The AMCD Solution
+
+AMCD resolves this tension through a simple but powerful principle: **separate what must remain consistent from what should be customized**.
+
+**CORE (Stable for All Learners)**
+- **C**aptivate: Hook with story, establish relevance
+- **O**rient: Build systematic understanding
+- **R**ealize: Apply concepts through case study
+- **E**xecute: Hands-on practice with guidance
+
+**FLEX (Adapts to Audience)**
+- **F**it to learner level
+- **L**evel the options (2-3 tiers)
+- **E**quivalent effort across tiers
+- **X**pand to scale (module → pathway → course)
+
+This separation enables instructors to maintain pedagogical integrity while serving diverse audiences efficiently.
 
 ---
 
 ## Who This Is For
 
-**Educators** creating technical courses (CS, AI, software engineering, data science)  
-**Instructional Designers** needing structured templates with proven pedagogy  
-**AI Systems** generating educational content with consistent quality  
-**Training Programs** building professional development curricula  
-**Bootcamps** designing outcome-focused technical education
+| Audience | Primary Resources | Focus |
+|----------|-------------------|-------|
+| **Course designers and instructors** | AMCD methodology, CORE formula, templates | Designing better courses |
+| **Institutions evaluating adoption** | Methodology paper, institutional guides | Due diligence and implementation planning |
+| **Researchers and collaborators** | Full methodology paper, theoretical foundations | Understanding the framework's basis |
 
 ---
 
 ## Quick Start
 
-### 1. Review the Template
+### For Course Designers
 
-Read the [Master Course Design Template](templates/master-course-template.md) to understand the structure.
+1. **Read the CORE Formula**: [instruction-guides/individual-designers/the-core-formula.md](instruction-guides/individual-designers/the-core-formula.md)
+2. **Review the template**: [templates/master-course-template.md](templates/master-course-template.md)
+3. **Start designing**: Apply the 4-lesson structure to your first module
 
-### 2. Key Components
+### For Institutions
 
-Each module contains:
+1. **Executive Summary**: [instruction-guides/institutions/executive-summary.md](instruction-guides/institutions/executive-summary.md)
+2. **Methodology Overview**: [instruction-guides/institutions/methodology-overview.md](instruction-guides/institutions/methodology-overview.md)
+3. **Implementation Guide**: [instruction-guides/institutions/implementation-guide.md](instruction-guides/institutions/implementation-guide.md)
 
-- **Module-level**: North Star statement, 3 learning objectives, introduction, outcomes
-- **Lesson 1**: Introduction (big picture, analogies, engagement)
-- **Lesson 2**: Understanding (technical depth, examples, concepts)
-- **Lesson 3**: Application (case study, real-world impact)
-- **Lesson 4**: Activity (hands-on deliverable, portfolio artifact)
+### For Deep Understanding
 
-### 3. Lesson Voice Framework
+**Read the full methodology paper**: [papers/adaptive-modular-course-design.md](papers/adaptive-modular-course-design.md)
 
-Each lesson uses a specific teaching voice style:
-
-| Lesson | Voice Style | Purpose | Characteristics |
-|:-------|:------------|:--------|:----------------|
-| 1 | Engaging Storyteller | Hook & Context | Storytelling, analogies, big picture |
-| 2 | Clear Systematizer | Technical Depth | Clear examples, systematic, concept-focused |
-| 3 | Warm Humanizer | Real-World Impact | Case studies, human connection, "so what" |
-| 4 | Direct Structurer | Hands-On Work | Specifications, structure, deliverables |
-
-*Note: Voice styles are pedagogical approaches, not reproductions of any specific instructor's material.*
-
-### 4. Create Your First Module
-
-1. Choose your subject area (database design, API development, machine learning, etc.)
-2. Define 3 learning objectives using Bloom's taxonomy
-3. Write your North Star statement (one-sentence ultimate purpose)
-4. Follow the template structure for each of the 4 lessons
-5. Use the built-in checklists to validate quality
+This paper presents the complete theoretical foundations, synthesizing 12 peer-reviewed educational theories into the AMCD framework.
 
 ---
 
-## Core Principles
+## The CORE Formula
+
+Every module uses exactly four lessons:
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                     THE CORE FORMULA                         │
+├─────────────────────────────────────────────────────────────┤
+│                                                              │
+│  C - CAPTIVATE  →  O - ORIENT  →  R - REALIZE  →  E - EXECUTE │
+│                                                              │
+│  "Why care?"      "How work?"    "When apply?"    "Do it!"   │
+│                                                              │
+│  Hook them        Teach them     Show them        Let them   │
+│                                                              │
+└─────────────────────────────────────────────────────────────┘
+```
+
+Each lesson type has a distinct teaching voice:
+
+| Lesson | Voice | Energy | Purpose |
+|--------|-------|--------|---------|
+| Captivate | Enthusiastic Storyteller | 7/10 | Create engagement before education |
+| Orient | Patient Systematizer | 5/10 | Build understanding step by step |
+| Realize | Empathetic Navigator | 6/10 | Show concepts through human experience |
+| Execute | Focused Coach | 4/10 | Direct, practical guidance |
+
+This voice variation isn't arbitrary—it reflects how skilled educators naturally shift their approach based on instructional goals.
+
+---
+
+## Theoretical Foundations
+
+AMCD synthesizes 12 established educational theories:
+
+1. **Bloom's Revised Taxonomy** (Anderson & Krathwohl, 2001) — Learning objective structure
+2. **Cognitive Load Theory** (Sweller, 1988) — Managing mental effort
+3. **Zone of Proximal Development** (Vygotsky, 1978) — Appropriate challenge levels
+4. **Scaffolding** (Bruner et al., 1976) — Structured support
+5. **Differentiated Instruction** (Tomlinson, 1999) — Meeting learners where they are
+6. **Narrative Pedagogy** (Bruner, 1986) — Story as learning structure
+7. **Mastery Learning** (Bloom, 1968) — Competency demonstration
+8. **Spiral Curriculum** (Bruner, 1960) — Progressive revisitation
+9. **Backward Design** (Wiggins & McTighe, 2005) — Outcomes-first design
+10. **Experiential Learning** (Kolb, 1984) — Learning through doing
+11. **Constructivist Assessment** — Portfolio-based evaluation
+12. **Project-Based Learning** — Authentic, extended tasks
+
+The methodology paper provides detailed citations and explains how each theory informs specific framework components.
+
+---
+
+## The Role of the Agentic Course Creator (ACC)
+
+The [Agentic Course Creator](agentic-course-creator/README.md) included in this repository is **not a finished product, automation tool, or implementation layer**.
+
+It serves three purposes:
+
+1. **Demonstration**: Illustrates how AMCD can be operationalized using AI agents
+2. **Research Companion**: Explores how symbolic rubrics, instruction styles, and structured lesson archetypes interact with AI-assisted content creation
+3. **Open-Core Reference**: Provides high-level guidance for future implementation and experimentation—not a turnkey system
+
+**ACC should be viewed as a supporting asset, not the focal point.**
+
+Its inclusion strengthens confidence in AMCD's applicability and future extensibility rather than serving as a standalone commercial or developer-ready tool.
+
+---
+
+## Repository Structure
+
+```
+agentic-professor/
+├── README.md                           # This file
+├── papers/
+│   ├── adaptive-modular-course-design.md   # Full methodology paper (primary contribution)
+│   ├── AMCD-one-pager.md               # Executive summary
+│   └── AMCD-quick-guide.md             # Quick reference
+├── templates/
+│   └── master-course-template.md       # Comprehensive course template
+├── instruction-guides/
+│   ├── institutions/                   # For institutional decision-makers
+│   └── individual-designers/           # For course creators
+├── agentic-course-creator/             # Supporting demonstration asset
+│   ├── agents/                         # Agent specifications (exploratory)
+│   ├── guides/developers/              # Technical reference
+│   └── workflows/                      # Process documentation
+└── LICENSE
+```
+
+---
+
+## Design Principles
 
 ### 1. Fundamentals First
 Teach foundational concepts before advanced features. Strong foundations enable rapid learning.
@@ -93,239 +189,70 @@ Layer concepts from basic → typical → advanced. Build understanding incremen
 
 ---
 
-## Template Structure
-
-```
-Module Structure
-├── North Star (one-sentence purpose)
-├── Learning Objectives (3, following Bloom's taxonomy)
-├── Module Introduction (200-400 words)
-│
-├── Lesson 1: Introduction - The Hook
-│   ├── Opening with compelling scenario
-│   ├── Big picture mental model
-│   ├── Core concepts in plain English
-│   └── Learning journey preview
-│
-├── Lesson 2: Understanding - The Deep Dive
-│   ├── Technical concept breakdown
-│   ├── Progressive examples (basic → complex)
-│   ├── Pseudocode with explanations
-│   └── Common patterns and variations
-│
-├── Lesson 3: Application - The Case Study
-│   ├── Hero character with challenge
-│   ├── Problem analysis (what went wrong)
-│   ├── Solution journey (thinking process)
-│   └── Impact and takeaway
-│
-├── Lesson 4: Activity - The Deliverable
-│   ├── Clear specifications
-│   ├── Getting started guidance
-│   ├── Evaluation criteria
-│   └── Optional extensions
-│
-└── Module Summary (mastery criteria)
-```
-
----
-
-## Example Learning Objectives
-
-Following Bloom's taxonomy progression:
-
-**Database Design Module:**
-1. **Explain** the role of normalization in database efficiency (Understand)
-2. **Design** a normalized schema for an e-commerce application (Apply)
-3. **Evaluate** database performance and recommend optimizations (Evaluate)
-
-**API Development Module:**
-1. **Describe** RESTful design principles and their constraints (Understand)
-2. **Implement** a REST API with proper resource modeling (Apply)
-3. **Assess** API design tradeoffs and select appropriate patterns (Evaluate)
-
-**Prompt Engineering Module:**
-1. **Summarize** how prompt structure affects AI output quality (Understand)
-2. **Create** contractual prompts with role, goal, and constraints (Apply)
-3. **Critique** prompt effectiveness and iterate systematically (Evaluate)
-
----
-
-## Template Features
-
-### Built-In Quality Standards
-
-- **Word count guidelines** for each section
-- **Quality checklists** for self-validation
-- **Anti-patterns** explicitly called out
-- **Voice consistency** guidelines per lesson
-- **Assessment rubrics** for student deliverables
-
-### Pedagogical Rigor
-
-- **Bloom's taxonomy** framework for learning objectives
-- **Progressive disclosure** of complex concepts
-- **Cognitive load** management through structure
-- **Active learning** emphasis (show-then-try)
-- **Metacognition** through reflection prompts
-
-### Practical Focus
-
-- **Portfolio artifacts** as primary outcomes
-- **Real-world case studies** in every module
-- **Code examples** with explanations
-- **Getting started** guidance for activities
-- **Extension challenges** for advanced learners
-
----
-
-## Use Cases
-
-### University Courses
-Structure semester-long courses with consistent quality across modules. Each module = 1 week of instruction.
-
-### Bootcamps
-Create intensive training programs with portfolio-focused outcomes. Clear specifications support rapid learning.
-
-### Professional Training
-Design corporate upskilling programs with measurable learning objectives and practical deliverables.
-
-### AI Course Generation
-Provide structured format for LLMs to generate educational content. Template reduces ambiguity and ensures consistency.
-
-### Self-Paced Learning
-Create asynchronous courses where learners progress independently. Clear structure supports autonomous learning.
-
----
-
-## Design Philosophy
-
-This template is based on:
-
-- **Outcome-focused methodology**: Learning demonstrates capability, not just knowledge
-- **Manager-Intern model**: Learner controls scope/quality, tools/AI support execution
-- **Iterative clarity**: Complexity builds through progressive refinement
-- **Contractual instruction**: Clear specifications reduce ambiguity
-- **Evidence-based pedagogy**: Grounded in learning science research
-
-Developed from practical experience teaching AI engineering and technical courses at the university level.
-
----
-
-## Repository Contents (v2.0.0)
-
-```
-agentic-professor/
-├── README.md (this file)
-├── LICENSE
-├── templates/
-│   └── master-course-template.md (comprehensive template)
-└── CHANGELOG.md
-```
-
-**Coming Soon:**
-- `/examples` - Complete course modules (database design, prompt engineering, web APIs)
-- `/personas` - Detailed teaching voice profiles
-- `/agents` - AI specifications for automated course generation
-- `/tools` - Validation scripts and utilities
-
----
-
 ## Getting Started: Three Approaches
 
-### Approach 1: Human-Led Design (Traditional)
+### Approach 1: Human-Led Design
 1. Read the [master template](templates/master-course-template.md)
 2. Choose your subject area
-3. Fill in sections following the structure
+3. Follow the CORE structure for each module
 4. Use checklists to validate quality
-5. Iterate based on student feedback
 
 **Time investment:** 8-12 hours per module
 
-### Approach 2: AI-Assisted Design (Collaborative)
-1. Provide the template to Claude/GPT-4
-2. Specify: subject, audience level, learning objectives
-3. Review generated content against checklists
-4. Refine voice consistency and examples
-5. Add subject-specific expertise
+### Approach 2: AI-Assisted Design
+1. Provide the template and methodology to an LLM
+2. Specify subject, audience level, learning objectives
+3. Review generated content against AMCD principles
+4. Refine voice consistency and add expertise
 
 **Time investment:** 3-5 hours per module
 
 ### Approach 3: Hybrid Approach (Recommended)
-1. Use AI to generate first draft from template
-2. Revise introduction and case study with personal experience
-3. Validate technical accuracy in Lesson 2
-4. Customize activity specifications for your context
-5. Test with real students and iterate
+1. Use AI to generate first draft following AMCD structure
+2. Revise hook and case study with personal experience
+3. Validate technical accuracy
+4. Customize for your specific context
 
 **Time investment:** 4-6 hours per module
 
 ---
 
-## Template Quality Standards
+## Validation and Limitations
 
-### Module-Level Validation
+### What AMCD Provides
 
-- [ ] North Star statement is specific and outcome-focused
-- [ ] Three learning objectives follow Bloom's taxonomy
-- [ ] Module introduction is 200-400 words with clear hook
-- [ ] Portfolio artifact is clearly defined
+- A research-grounded structure for course design
+- Repeatable patterns that address common instructional weaknesses
+- Clear separation of stable content from audience-adaptable practice
+- Voice variation that reflects effective teaching practice
 
-### Lesson-Level Validation
+### What AMCD Does Not Provide
 
-- [ ] Lesson 1: Engaging hook, analogies, big picture established
-- [ ] Lesson 2: Concepts defined clearly, examples progress basic→complex
-- [ ] Lesson 3: Case study includes problem, analysis, solution, impact
-- [ ] Lesson 4: Clear specifications, evaluation criteria, getting-started guidance
+- Empirical validation of learning outcomes (this requires further research)
+- Automated course generation (the ACC is exploratory, not production-ready)
+- Domain-specific content expertise (your subject matter knowledge is essential)
+- Guarantee of results (no methodology can promise specific outcomes)
 
-### Voice Consistency
+### Claims and Evidence
 
-- [ ] Each lesson matches designated teaching voice
-- [ ] Energy levels appropriate to content density
-- [ ] Technical terms defined on first use
-- [ ] Active voice used throughout
+Throughout this repository, we distinguish between:
+- **Design goals**: What the framework is intended to achieve
+- **Theoretical support**: What established research suggests
+- **Preliminary observations**: What initial application indicates
+- **Validated outcomes**: What empirical testing has confirmed
 
----
-
-## Frequently Asked Questions
-
-### Can I adapt this for non-technical subjects?
-
-Yes. The structure works for any subject with clear learning objectives. The voice personas and examples may need adjustment for non-technical domains.
-
-### How does this differ from traditional course design?
-
-This template emphasizes portfolio artifacts over knowledge retention, uses voice-specific instruction patterns, and is structured for both human and AI use.
-
-### Is this suitable for live teaching or just asynchronous?
-
-Both. The template works for self-paced online courses and can be adapted for live lectures by using the lesson content as lecture notes.
-
-### Can AI generate courses using this template?
-
-Yes. The structured format with clear specifications reduces ambiguity in AI-generated content. Provide the template as context to Claude/GPT-4.
-
-### What's the recommended module length?
-
-Each module = approximately 4-6 hours of student work (reading, activities, reflection). A typical course has 8-12 modules.
-
-### How do I assess student work?
-
-Lesson 4 includes evaluation criteria for each deliverable. Use the provided checklists as assessment rubrics.
+Most claims in this repository fall into the first three categories. Rigorous validation requires further empirical study.
 
 ---
 
-## Contributing
+## Author
 
-This is v2.0.0 - the initial release with core template. Future versions will include:
+**Bradley Ross**
+Harvard Educator | AI Systems Specialist
 
-- Complete course examples
-- Teaching voice persona specifications
-- AI agent specifications for course generation
-- Validation tools and scripts
-- Community-contributed extensions
+- **LinkedIn**: [linkedin.com/in/bradleyross](https://linkedin.com/in/bradleyross)
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on submitting improvements, examples, or new personas.
+AMCD was developed from practical experience teaching AI engineering and technical courses at the university level, combined with systematic study of educational research.
 
 ---
 
@@ -333,56 +260,37 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on submitting improvements
 
 MIT License - see [LICENSE](LICENSE) file for details.
 
-You are free to use, modify, and distribute this template for educational purposes with attribution.
-
----
-
-## Support & Community
-
-- **Issues**: Report template problems or request features via GitHub Issues
-- **Discussions**: Share course implementations and ask questions in GitHub Discussions
-- **Website**: Documentation and examples at [planned]
-
----
-
-## Version History
-
-**v2.0.0** (Current) - Initial public release with comprehensive course design template  
-See [CHANGELOG.md](CHANGELOG.md) for detailed version history.
+You are free to use, modify, and distribute this framework for educational purposes with attribution.
 
 ---
 
 ## Citation
 
-If you use this template in academic work, please cite:
+If you use this framework in academic or professional work, please cite:
 
 ```
-Agentic Professor: Structured Course Design Template for Technical Education 
-(Version 2.0.0) [Computer software]. (2025).
-[https://github.com/[username]/agentic-professor](https://github.com/bar181/agentic-professor)
+Ross, B. (2024). Adaptive Modular Course Design: A Framework for Scalable
+Technical Education (Version 2.0.0). https://github.com/bar181/agentic-professor
 ```
 
 ---
 
 ## Acknowledgments
 
-This template draws inspiration from established educational methodologies:
+This framework synthesizes established educational methodologies into a practical course design structure. It draws from:
 
-- **Bloom's taxonomy** framework for learning objectives
-- **Cognitive load theory** and progressive disclosure research
-- **Outcome-focused instructional design** principles
-- **Engaging lecture techniques** observed in technical education
-- **Systematic teaching approaches** in online learning
-- **Problem-set methodologies** in computer science education
+- Bloom's taxonomy and cognitive load research
+- Constructivist and experiential learning theory
+- Narrative pedagogy and storytelling research
+- Differentiated instruction and scaffolding principles
+- Project-based and mastery learning approaches
 
-The template synthesizes these pedagogical approaches into a structured format for technical course design. No copyrighted course materials, lecture content, or proprietary educational content from any institution or instructor are reproduced or included.
-
-This is an original work that references common teaching methodologies and instructional design principles that are widely used in technical education.
+No copyrighted course materials, lecture content, or proprietary educational content from any institution or instructor are reproduced or included.
 
 ---
 
-Built for modern technical education where structured pedagogy and clear learning outcomes create effective learning experiences.
+**Ready to design your first module?**
 
----
+→ Start with [The CORE Formula](instruction-guides/individual-designers/the-core-formula.md)
 
-**Ready to create your first module?** → [View the Master Template](templates/master-course-template.md)
+→ Or read [the full methodology](papers/adaptive-modular-course-design.md)

@@ -1,0 +1,107 @@
+# Example: Full AI Agents Course (University Level)
+# Duration: ~45 hours over 15 weeks
+
+course:
+  title: "Building Intelligent AI Agents"
+  topic: "Designing, implementing, and deploying autonomous AI agent systems using LLMs"
+  description: |
+    A comprehensive course on AI agent architecture, from single-agent systems
+    to multi-agent orchestration. Students build production-ready agent applications.
+  version: "1.0.0"
+  author: "Course Design Team"
+  domain: "ai_ml"
+
+audience:
+  primary: "Software engineers with Python experience"
+  secondary: "ML engineers wanting to build applications"
+  level: "intermediate"
+  prerequisites:
+    - "Python programming (intermediate)"
+    - "Basic understanding of APIs and HTTP"
+    - "Familiarity with LLMs (ChatGPT, Claude)"
+    - "Git version control basics"
+  roles:
+    - "Backend Developer"
+    - "ML Engineer"
+    - "Full-Stack Developer"
+
+parameters:
+  total_hours: 45
+  reading_level: "professional"
+  difficulty: "moderate"
+  ai_content_ratio: 0.75  # 75% AI, 25% instructor input
+  detail_level: "comprehensive"
+  code_heavy: true
+
+structure:
+  pathways: 3
+  modules_per_pathway: 4
+  lessons_per_module: 4  # Always CORE
+  include_capstone: true
+  include_mini_capstones: true
+  pathway_names:
+    - "Foundations of AI Agents"
+    - "Building Agent Systems"
+    - "Production and Scaling"
+
+problem_sets:
+  tier_count: 3
+  tiers:
+    - name: "Guided"
+      target: "First-time agent builders"
+      scaffolding: "high"
+    - name: "Independent"
+      target: "Developers with some agent experience"
+      scaffolding: "medium"
+    - name: "Advanced"
+      target: "Engineers building production systems"
+      scaffolding: "low"
+  time_per_tier: 45
+  grading_policy: "max"
+  role_based: false
+
+delivery:
+  format: "hybrid"
+  platform: "canvas"
+  video_scripts: true
+  workshop_variant: true
+  workshop_duration: "two_day"
+  interactive_elements: true
+
+hero:
+  name: "Maya"
+  role: "Full-stack developer"
+  context: "AI startup building customer service automation"
+  personality: "Curious and methodical, sometimes overcomplicates solutions"
+  arc: "From skeptical of AI agents to building production multi-agent systems"
+
+source_materials:
+  research_papers:
+    - "ReAct: Synergizing Reasoning and Acting in Language Models"
+    - "Generative Agents: Interactive Simulacra of Human Behavior"
+  documentation:
+    - "https://docs.anthropic.com/claude/docs"
+    - "https://platform.openai.com/docs"
+  examples:
+    - "Customer support chatbot"
+    - "Code review agent"
+    - "Research assistant"
+
+customization:
+  terminology:
+    "model": "LLM"
+    "prompt": "instruction"
+  excluded_topics:
+    - "Fine-tuning models"
+    - "Training from scratch"
+  required_topics:
+    - "Tool calling"
+    - "Memory management"
+    - "Error handling"
+    - "Agent evaluation"
+
+quality:
+  review_enabled: true
+  bloom_validation: true
+  voice_consistency: true
+  minimum_quality_score: 85
