@@ -1,4 +1,4 @@
-# Executive Summary: AMCD Framework & Agentic Course Creator
+# Executive Summary: AMCD Framework
 
 **For Institutional Decision Makers**
 
@@ -26,76 +26,87 @@ Meanwhile, institutions face pressure to:
 
 ---
 
-## The Solution
+## The AMCD Framework
 
-The **Adaptive Modular Course Design (AMCD)** framework combined with the **Agentic Course Creator (ACC)** addresses these challenges through:
+The **Adaptive Modular Course Design (AMCD)** framework addresses these challenges through:
 
-### 1. Evidence-Based Structure
-AMCD synthesizes 12 peer-reviewed pedagogical foundations into a practical course design methodology. This isn't theoretical—it's applied research.
+### 1. Research-Grounded Structure
+AMCD synthesizes 12 peer-reviewed pedagogical foundations into a practical course design methodology. This isn't theoretical—it's applied research from Bloom, Sweller, Vygotsky, Tomlinson, and others.
 
 ### 2. Consistent Quality Architecture
 The CORE + FLEX model provides:
-- **CORE**: 4 stable lessons per module (hook, concepts, application, practice)
+- **CORE**: 4 stable lessons per module (Captivate, Orient, Realize, Execute)
 - **FLEX**: Tiered problem sets that meet learners at their level
 
-### 3. AI-Accelerated Development
-The Agentic Course Creator generates complete course drafts that:
-- Follow AMCD pedagogical principles automatically
-- Maintain consistent voice and quality
-- Can be reviewed and refined by your experts
+### 3. Repeatable Patterns
+The framework gives instructional designers clear structures to follow, reducing ambiguity and supporting consistent quality across teams and courses.
 
 ---
 
-## What This Delivers
+## What AMCD Is Designed to Achieve
 
-### Time Reduction
+### Structural Consistency
+- 100% adherence to evidence-based CORE format
+- Systematic Bloom's taxonomy alignment
+- Same pedagogical approach across all modules
 
-| Phase | Traditional | With ACC | Reduction |
-|-------|-------------|----------|-----------|
-| First draft | 30-50 hours | 1-2 hours | 95%+ |
-| Review/refinement | 20-30 hours | 15-25 hours | 20-30% |
-| **Total per module** | **50-80 hours** | **16-27 hours** | **60-70%** |
+### Audience Adaptability
+- Single core content serves multiple audiences
+- FLEX components adapt to skill level, role, or industry
+- Problem sets calibrated for equivalent time investment
 
-### Quality Outcomes
-
-Based on the methodology's design and theoretical foundations:
-
-- **Structure compliance**: 100% adherence to evidence-based CORE format
-- **Cognitive progression**: Systematic Bloom's taxonomy alignment
-- **Audience adaptation**: Multiple versions from single source material
-- **Consistency**: Same pedagogical approach across all modules
-
-### Cost Implications
-
-| Scenario | Traditional Cost | With ACC | Savings |
-|----------|------------------|----------|---------|
-| 12-module course | $60,000-240,000 | $20,000-80,000 | 60-70% |
-| Course variant for new audience | Full redevelopment | 2-4 hours adaptation | 90%+ |
-| Annual program update | 100-200 hours | 20-40 hours | 80% |
-
-*Note: These projections are based on methodology design. Actual results depend on implementation quality, domain complexity, and institutional context.*
+### Efficiency Potential
+- Reduced design ambiguity through clear templates
+- Repeatable patterns that accelerate experienced designers
+- Adaptation is simpler than recreation
 
 ---
 
-## How It Works
+## Theoretical Support for Time Reduction
 
-```
-1. INPUT           2. GENERATE         3. REVIEW           4. DEPLOY
-   Course specs       AI creates          Expert refines      Publish to
-   + Source material  structured draft    and approves        learners
+Based on the framework's design and application in similar structured methodologies, AMCD is intended to reduce development time through:
 
-   [Your experts]     [ACC system]        [Your experts]      [Your LMS]
-   2-4 hours          1-2 hours           15-25 hours         Standard
-```
+| Mechanism | How It Works |
+|-----------|--------------|
+| Template structure | Eliminates "blank page" problem |
+| Clear voice guidelines | Reduces iteration on tone |
+| Predefined progression | Eliminates architecture decisions |
+| FLEX separation | Adaptation doesn't require core rewrite |
 
-### Critical Understanding
+**Projected impact** (design goal, requires validation):
 
-The ACC is a **draft generator**, not an autonomous course creator.
+| Phase | Traditional | With AMCD | Mechanism |
+|-------|-------------|-----------|-----------|
+| First draft | 30-50 hours | 15-25 hours | Template + structure |
+| Review/refinement | 20-30 hours | 15-20 hours | Clear criteria |
+| **Total per module** | **50-80 hours** | **30-45 hours** | |
 
-- It produces high-quality starting points
-- Your subject matter experts must review and refine
-- The AI accelerates your team, it doesn't replace them
-- Final quality depends on your expert oversight
+**Note**: These projections are based on methodology design. Actual results depend on implementation quality, domain complexity, and institutional context.
+
+---
+
+## AI-Assisted Implementation (Exploratory)
+
+The repository includes the **Agentic Course Creator (ACC)**—agent specifications that demonstrate how AMCD could be operationalized through AI.
+
+### What ACC Is
+- A demonstration of AMCD implementation concepts
+- Exploratory specifications for AI-assisted content generation
+- A research companion for understanding AMCD + AI interaction
+
+### What ACC Is Not
+- A finished product or automation tool
+- A turnkey system for course generation
+- A replacement for human expertise
+
+### Potential with AI Assistance (Hypothesis)
+
+If implemented, AI assistance based on AMCD specifications may:
+- Further reduce first-draft creation time
+- Maintain voice consistency across longer courses
+- Enable rapid adaptation for new audiences
+
+**Status**: These are hypotheses supported by the framework's design. Further empirical testing will validate actual outcomes.
 
 ---
 
@@ -107,57 +118,63 @@ The ACC is a **draft generator**, not an autonomous course creator.
 |-------------|----------------|
 | Subject matter experts | Must validate accuracy and relevance |
 | Instructional design capacity | Must evaluate pedagogical quality |
-| Review workflow | Must have process for expert approval |
-| LMS infrastructure | Must have delivery platform |
+| Commitment to the methodology | Partial adoption limits benefits |
 
-### What You Don't Need
+### What AMCD Provides
 
-- Large instructional design teams (smaller team can do more)
-- Extended development timelines (faster iteration)
-- Per-course budget scaling (marginal cost drops significantly)
+- Research-grounded structure for course design
+- Clear templates and quality criteria
+- Voice and persona guidelines
+- Adaptation patterns for multiple audiences
+
+### What AMCD Does Not Provide
+
+- Guaranteed outcomes (no methodology can)
+- Domain-specific content expertise
+- Automated course generation (ACC is exploratory)
+- Empirical validation data (requires further study)
 
 ---
 
 ## Risk Assessment
 
-### What This System Can Do
-- Generate pedagogically-structured course content quickly
-- Maintain consistency across large course catalogs
-- Adapt existing courses for new audiences
-- Accelerate experienced instructional designers
+### What AMCD Can Do
+- Provide consistent structure for course development
+- Give instructional designers clear patterns to follow
+- Enable adaptation across audiences more efficiently
+- Support quality conversations with explicit criteria
 
-### What This System Cannot Do
+### What AMCD Cannot Do
 - Replace subject matter expertise
-- Generate original research or novel insights
-- Guarantee learning outcomes (no system can)
-- Operate without human oversight
+- Guarantee learning outcomes
+- Operate without qualified instructional designers
+- Eliminate the need for human judgment
 
-### Mitigation Built In
-- Quality scoring ensures minimum standards
-- Human review checkpoints are required, not optional
-- Domain expertise remains with your institution
+### Honest Positioning
+
+AMCD is a **design framework**, not a solution. It provides structure that experienced instructional designers can use to work more efficiently and consistently. The framework's value depends on your team's ability to apply it thoughtfully.
 
 ---
 
 ## Decision Framework
 
-### Consider AMCD + ACC if:
-- You need to scale course development
-- You have experts who can review AI output
-- You value pedagogical consistency
-- Development speed matters to your strategy
+### Consider AMCD if:
+- You value pedagogical consistency across courses
+- You have instructional design capacity to apply the framework
+- You want clear structure for design decisions
+- You're open to adapting your process to a new methodology
 
 ### Proceed with caution if:
-- Your domain requires cutting-edge/proprietary knowledge
-- You have no instructional design capacity
-- You expect fully autonomous course creation
-- Regulatory requirements demand specific approval workflows
+- You expect dramatic time savings without process change
+- You lack instructional design expertise
+- You're looking for fully automated course creation
+- Your domain requires highly specialized content approaches
 
-### This is not right for you if:
-- You need original research content
-- You have no subject matter expert availability
-- You require 100% human-authored content for compliance
-- You're unwilling to invest in review processes
+### This may not be right for you if:
+- You need empirically validated outcomes data
+- You require turnkey solutions
+- You're unwilling to invest in learning the framework
+- Your existing process already works well
 
 ---
 
@@ -166,7 +183,7 @@ The ACC is a **draft generator**, not an autonomous course creator.
 ### For Evaluation
 1. Review the [Methodology Overview](methodology-overview.md) to understand AMCD principles
 2. Check [Objections & Evidence](objections-and-evidence.md) for honest answers to concerns
-3. Use [ROI Analysis](roi-analysis.md) to assess financial implications
+3. Read [The CORE Formula](../individual-designers/the-core-formula.md) to see the practical structure
 
 ### For Discussion
 Connect with Bradley Ross to discuss your institution's specific needs:
@@ -178,14 +195,14 @@ Bradley brings experience as a Harvard educator and AI systems specialist, and c
 
 ## Summary
 
-The AMCD framework with Agentic Course Creator offers institutions a path to:
+The AMCD framework offers institutions:
 
-- **Develop courses 60-70% faster** through AI-accelerated drafting
-- **Maintain pedagogical quality** through evidence-based structure
-- **Scale efficiently** without proportional cost increases
-- **Adapt quickly** to serve multiple audiences from single source
+- **Research-grounded structure** for course design
+- **Consistent quality patterns** through CORE + FLEX
+- **Potential efficiency gains** through clear templates and guidelines
+- **Adaptation capability** to serve multiple audiences
 
-This is not a replacement for expertise—it's an accelerator for experts.
+This is a design framework that empowers skilled instructional designers—not a replacement for expertise or a guarantee of outcomes.
 
 ---
 
