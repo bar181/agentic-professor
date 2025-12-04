@@ -1839,6 +1839,568 @@ The framework scores 95/100 on a comprehensive evaluation rubric, with primary i
 
 For educators, instructional designers, and institutions seeking a structured yet flexible approach to technical education, AMCD provides a solid foundation that can be adopted incrementally and adapted to diverse contexts.
 
+### Appendix J: Instructor Facilitation Guide
+
+This comprehensive guide provides instructors with checklists, session plans, and facilitation tips organized by delivery mode.
+
+#### J.1 The Four Roles of the AMCD Instructor
+
+Research identifies four main roles for effective facilitation (Berge, 1995):
+
+| Role | Description | AMCD Application |
+|------|-------------|------------------|
+| **Pedagogical** | Facilitating learning through questions, feedback | Lesson delivery, problem set guidance |
+| **Social** | Creating a friendly, supportive environment | Hero narratives, community building |
+| **Managerial** | Setting objectives, timelines, procedures | Module pacing, deadline management |
+| **Technical** | Ensuring comfort with technology | Platform navigation, tool support |
+
+#### J.2 Pre-Module Preparation Checklist
+
+**One Week Before**:
+- [ ] Review all four lessons for accuracy and currency
+- [ ] Test all hyperlinks and embedded media
+- [ ] Verify problem set materials are accessible
+- [ ] Prepare personal examples to supplement case study
+- [ ] Review anticipated questions and prepare responses
+- [ ] Set up communication channels (announcements, forums)
+
+**Day Before**:
+- [ ] Post module introduction/welcome message
+- [ ] Verify LMS visibility and sequencing
+- [ ] Prepare session-specific materials (for live delivery)
+- [ ] Review learner roster and accommodation needs
+
+**Day Of (Live Sessions)**:
+- [ ] Test technology 15 minutes before start
+- [ ] Have backup plan for technical failures
+- [ ] Prepare engagement prompts for low-participation scenarios
+
+#### J.3 During-Module Facilitation Checklist
+
+**Daily/Per-Session**:
+- [ ] Monitor discussion boards (respond within 24-48 hours)
+- [ ] Provide substantive feedback, not just "good job"
+- [ ] Identify struggling learners and reach out proactively
+- [ ] Share relevant current events connecting to content
+
+**Mid-Module**:
+- [ ] Check completion rates and send reminders
+- [ ] Address common questions via announcement
+- [ ] Provide problem set hints without giving answers
+
+#### J.4 Post-Module Facilitation Checklist
+
+- [ ] Provide feedback on problem sets (within 7 days)
+- [ ] Summarize key learnings, connect to next module
+- [ ] Share exemplary student work (with permission)
+- [ ] Document what worked/didn't for future iterations
+
+#### J.5 Delivery Mode Session Plans
+
+**J.5.1 Asynchronous Delivery Plan**
+
+| Day | Activity | Instructor Action |
+|-----|----------|-------------------|
+| **Day 1** | Release Lessons 1-2 | Post welcome, highlight key concepts |
+| **Day 2-3** | Learner review | Monitor engagement, answer questions |
+| **Day 4** | Release Lessons 3-4 | Post case study discussion prompt |
+| **Day 5-6** | Problem set work | Provide hints, clarify requirements |
+| **Day 7** | Submission deadline | Send reminder |
+| **Day 8-10** | Feedback period | Provide substantive feedback |
+
+**Best Practices**: Chunk content into 15-30 minute segments; respond to forums within 24-48 hours; create 2-3 minute video check-ins for personal connection.
+
+**J.5.2 Synchronous/Live Delivery Plan (90 Minutes)**
+
+| Time | Activity | Notes |
+|------|----------|-------|
+| **0:00-0:05** | Welcome, agenda, poll | Set energy, gauge prior knowledge |
+| **0:05-0:20** | Lesson 1: Introduction | High energy, analogies, questions |
+| **0:20-0:40** | Lesson 2: Understanding | Moderate pace, check understanding |
+| **0:40-0:50** | Break + Discussion | Informal Q&A |
+| **0:50-1:10** | Lesson 3: Application | Case study, "what would you do?" |
+| **1:10-1:25** | Lesson 4: Hands-On | Live demo, show errors |
+| **1:25-1:30** | Problem set intro, Q&A | Clarify expectations |
+
+**J.5.3 Workshop Delivery Plan (3 Hours)**
+
+| Time | Activity |
+|------|----------|
+| **0:00-0:15** | Welcome, introductions, ice-breaker |
+| **0:15-0:35** | Lesson 1: Introduction |
+| **0:35-0:55** | Lesson 2: Understanding |
+| **0:55-1:10** | Break |
+| **1:10-1:35** | Lesson 3: Application (group discussion) |
+| **1:35-2:05** | Lesson 4: Hands-On demo |
+| **2:05-2:15** | Short break |
+| **2:15-2:50** | Problem set work (instructor circulates) |
+| **2:50-3:00** | Showcase, wrap-up |
+
+**J.5.4 Hybrid/HyFlex Considerations**
+
+- Ensure equivalent experience across modes
+- Record all synchronous sessions
+- Address both audiences: "For those in the room... for those online..."
+- Use collaborative tools accessible to all
+
+#### J.6 Facilitation Tips by Lesson Type
+
+| Lesson | Tips |
+|--------|------|
+| **Lesson 1** | Match high-energy Malan persona; use your own "a-ha" stories; avoid technical details |
+| **Lesson 2** | Shift to calm Ng persona; use "Let me show you" transitions; pause after new concepts |
+| **Lesson 3** | Bring Williams warmth; ask "What would you do?" before revealing hero's choice |
+| **Lesson 4** | Model Ross practicality; make mistakes intentionally and debug live; share shortcuts |
+
+#### J.7 Instructor Notes Template
+
+```
+MODULE: [Name]  |  DATE: [Date]
+
+WHAT WORKED:
+-
+
+WHAT TO IMPROVE:
+-
+
+COMMON QUESTIONS TO ADD TO FAQ:
+-
+
+TIME ADJUSTMENTS NEEDED:
+-
+```
+
+### Appendix K: Mass Customization Framework
+
+This appendix provides guidance on cultural adaptation, AI-enabled personalization, and scaling customization from cohort to individual level.
+
+#### K.1 Cultural Adaptation Framework
+
+**Research Foundation**: "E-learning is a cultural artifact—embedded with the nuances of the culture that designs it" (Edmundson, 2007). Cultural variables are often overlooked, leading to adaptation difficulties.
+
+**K.1.1 Adaptation Levels**
+
+| Level | Description | Effort | When to Use |
+|-------|-------------|--------|-------------|
+| **Translation** | Language conversion only | Low | Same cultural context, different language |
+| **Localization** | Icons, symbols, examples | Medium | Similar cultural contexts |
+| **Adaptation** | Pedagogical approach, interaction styles | High | Different cultural contexts |
+| **Origination** | Redesign from cultural perspective | Very High | New markets |
+
+**K.1.2 Regional Learning Preferences**
+
+| Region | Preferences | AMCD Adaptation |
+|--------|-------------|-----------------|
+| **North America/Western Europe** | Self-paced, autonomous | Standard AMCD works well |
+| **East Asia** | Instructor-led, group harmony | Emphasize Lesson 2, add group problem sets |
+| **Latin America** | Conversational, relationship-focused | Extend hero narrative, add discussion |
+| **Middle East/North Africa** | Respect for authority, structured | Formal Lesson 2 tone |
+| **South Asia** | Theoretical depth, examination focus | Detailed Understanding, practice tests |
+
+**K.1.3 Cultural Adaptation Checklist**
+
+- [ ] Review examples for cultural relevance
+- [ ] Check idioms and metaphors for translatability
+- [ ] Verify hero character is culturally relatable
+- [ ] Assess interaction expectations (individual vs. group)
+- [ ] Test with native reviewers before deployment
+
+#### K.2 Cohort-Level Customization
+
+As courses mature, customize for specific cohort characteristics:
+
+| Component | Customization | Example |
+|-----------|--------------|---------|
+| **Lesson 1 Analogies** | Industry-specific hooks | Finance: market analogies |
+| **Lesson 3 Case Study** | Cohort-relevant scenario | Same concept, different industry |
+| **Problem Sets** | Cohort-specific data | Real company data (anonymized) |
+| **Hero Character** | Cohort-reflective protagonist | Junior vs. senior professional |
+
+**Case Study Customization by Term**:
+
+| Course Run | Case Study Focus | Bloom's Emphasis |
+|------------|------------------|------------------|
+| Standard | Classic scenario | Apply/Analyze |
+| Advanced Cohort | Complex, ambiguous | Evaluate/Create |
+| Industry-Specific | Domain case study | Apply with context |
+| Current Events | Recent news story | Analyze/Evaluate |
+
+**Instructor Declaration**: "This term, we're using a case study focused on [X] to emphasize [higher-level Bloom's skill]."
+
+#### K.3 AI-Enabled Personalization
+
+**Research**: AI-generated case studies allow adaptive personalization "not possible before GenAI" (Faculty Focus, 2024). 25% improvement in grades with AI-personalized platforms.
+
+**K.3.1 AI Personalization Levels**
+
+| Level | Customization | Instructor Effort | AI Role |
+|-------|--------------|-------------------|---------|
+| **Segment** | Industry/role variants | Low | Pre-generate 3-5 variants |
+| **Cohort** | Specific cohort context | Low-Medium | Generate cohort scenarios |
+| **Group** | Team project contexts | Medium | Group-specific challenges |
+| **Individual** | Personalized scenarios | Low (after setup) | Real-time adaptation |
+
+**K.3.2 AI Case Study Prompt Template**
+
+```
+Generate a case study for [TOPIC] with:
+- Industry: [learner's industry]
+- Role Level: [junior/mid/senior]
+- Region: [cultural context]
+
+Requirements:
+- 400-500 words
+- Named protagonist with specific role
+- Problem, constraints, decision point
+- [Bloom's level] learning objective
+- [Williams/warm] tone for Lesson 3
+
+Format: Protagonist intro (50w) → Situation (100w) →
+Challenge (150w) → Decision point (100w) → 3 discussion questions
+```
+
+**K.3.3 Safeguards**
+
+| Risk | Mitigation |
+|------|------------|
+| Inaccuracy | Human review before deployment |
+| Bias | Test with diverse reviewers |
+| Privacy | Never input student PII |
+| Over-reliance | AI augments, doesn't replace judgment |
+
+#### K.4 Progressive Customization Model
+
+```
+Course Launch    →    Mature Course    →    Advanced Course
+2-3 standard          5-7 segment           Cohort + AI-generated
+tiers                 variants              + student choice
+```
+
+### Appendix L: Stakeholder Resource Guide
+
+This appendix defines recommended supporting resources with specifications.
+
+#### L.1 Video Resource Specifications
+
+**Research**: Optimal video length is 6 minutes or shorter (edX). Shorter videos improve engagement by 24.7% and exam scores by 7.4%.
+
+**L.1.1 Video Types**
+
+| Video Type | Duration | Purpose | When to Use |
+|------------|----------|---------|-------------|
+| **Module Overview** | 2-3 min | Introduce module | Start of each module |
+| **Lesson Explainer** | 3-5 min | Supplement text | Each lesson (optional) |
+| **Concept Deep Dive** | 5-8 min | Complex topics | As needed |
+| **Problem Set Intro** | 2-3 min | Clarify expectations | Before problem set |
+| **Demonstration** | 5-10 min | Hands-on walkthrough | Lesson 4 |
+| **Pathway Overview** | 3-4 min | Pathway arc intro | Start of pathway |
+| **Course Welcome** | 4-6 min | Course overview | Course start |
+
+**L.1.2 Video Production Specs**
+
+| Element | Specification |
+|---------|---------------|
+| Resolution | 1080p minimum |
+| Audio | Clear, -12dB to -6dB peaks |
+| Captions | Required (accessibility) |
+| Pacing | 120-150 words/minute |
+| Segmentation | Chapter markers every 2-3 min |
+
+**L.1.3 AI-Assisted Video Creation**
+
+| Component | AI Assistance | Human Role |
+|-----------|---------------|------------|
+| Script | AI drafts from lesson | Review, personalize |
+| Slide Deck | AI generates | Design review |
+| Voiceover | AI voice OR human | Human preferred for Lessons 1, 3 |
+| Captions | AI-generated | Accuracy review |
+
+**Recommendation**: Lessons 1 and 3 benefit most from human delivery (engagement, warmth). Lessons 2 and 4 can use AI-generated content with review.
+
+#### L.2 Document Specifications
+
+**L.2.1 Learner Documents**
+
+| Document | Length | Contents |
+|----------|--------|----------|
+| Module Guide | 1-2 pages | Objectives, key terms, timeline |
+| Problem Set Brief | 1 page | Requirements, rubric, resources |
+| Glossary | Varies | Terms with definitions |
+| Cheat Sheet | 1 page | Commands, syntax, formulas |
+
+**L.2.2 Instructor Documents**
+
+| Document | Length | Contents |
+|----------|--------|----------|
+| Facilitation Guide | 3-5 pages | Session plans, tips, FAQ |
+| Assessment Rubric | 1-2 pages | Criteria, levels, examples |
+| Adaptation Notes | 1-2 pages | What to change/preserve |
+
+**L.2.3 Institutional Documents**
+
+| Document | Length | Contents |
+|----------|--------|----------|
+| Syllabus Template | 3-5 pages | Objectives, policies, schedule |
+| Accreditation Map | 2-3 pages | Outcomes-to-standards crosswalk |
+| Train-the-Trainer | 5-10 pages | Framework overview, delivery guidance |
+
+#### L.3 Resource Placement Map
+
+```
+COURSE LEVEL
+├─ Course Welcome Video (4-6 min)
+├─ Course Syllabus
+└─ Course Glossary (cumulative)
+
+PATHWAY LEVEL
+├─ Pathway Overview Video (3-4 min)
+└─ Pathway Project Brief
+
+MODULE LEVEL
+├─ Module Overview Video (2-3 min)
+├─ Module Guide (1-2 pages)
+├─ Lesson 1: Text + Optional Video (3-5 min)
+├─ Lesson 2: Text + Optional Video + Concept Check
+├─ Lesson 3: Text + Optional Video + Discussion
+├─ Lesson 4: Text + Demo Video (5-10 min) + Cheat Sheet
+├─ Problem Set Intro Video (2-3 min)
+└─ Problem Set Brief + Rubric
+```
+
+### Appendix M: Research-Based Tips and Suggestions
+
+Research-based recommendations for content specifications while maintaining instructor flexibility. These are **suggestions, not requirements**.
+
+#### M.1 Content Length Recommendations
+
+**Research**: Microlearning indicates 3-7 minute chunks prevent cognitive overload. Ebbinghaus curve: 50% loss within an hour without reinforcement.
+
+**M.1.1 Lesson Length Specifications**
+
+| Lesson | Words | Reading Time | Video Equivalent |
+|--------|-------|--------------|------------------|
+| **Lesson 1** | 400-600 | 2-3 min | 3-5 min |
+| **Lesson 2** | 600-800 | 4-5 min | 5-8 min |
+| **Lesson 3** | 500-700 | 3-4 min | 4-6 min |
+| **Lesson 4** | 300-500 + code | 3-4 min | 5-10 min |
+| **Total Core** | 1,800-2,600 | 12-16 min | 17-29 min |
+
+**M.1.2 Section Lengths**
+
+| Section | Length | Purpose |
+|---------|--------|---------|
+| Opening Hook | 50-75 words | Capture attention |
+| Key Concept | 100-150 words/concept | Adequate explanation |
+| Example | 75-125 words | Illustration |
+| Transition | 25-50 words | Flow |
+| Summary | 50-100 words | Reinforce |
+
+#### M.2 Visual Break Recommendations
+
+**Research**: Engagement drops after 6-10 minutes of continuous text.
+
+| Content Type | Visual Break Frequency |
+|--------------|----------------------|
+| Text Lesson | Every 200-300 words |
+| Video | Every 2-3 minutes |
+| Problem Set | Per section |
+
+**Visual Elements by Lesson**:
+
+| Lesson | Elements | Purpose |
+|--------|----------|---------|
+| **Lesson 1** | Compelling image, analogy diagram | Engagement |
+| **Lesson 2** | Process diagram, concept map, table | Organization |
+| **Lesson 3** | Hero illustration, timeline | Immersion |
+| **Lesson 4** | Screenshots, code blocks | Guidance |
+
+**Callout Box Types**:
+- 💡 **Key Concept**: Critical definitions
+- ⭐ **Pro Tip**: Practical advice
+- ⚠️ **Warning**: Common mistakes
+- 📝 **Example**: Illustrations
+- 💬 **Discussion**: Engagement questions
+
+#### M.3 Engagement Element Recommendations
+
+**Research**: Gamification effect size g=0.822; 83.78% report it promotes motivation.
+
+**M.3.1 Engagement by Section**
+
+| Section | Element | Frequency |
+|---------|---------|-----------|
+| Module Start | Ice-breaker, poll | 1 per module |
+| Lesson 1 | "What if?" questions | 2-3 per lesson |
+| Lesson 2 | Concept checks | 1 per major concept |
+| Lesson 3 | Decision points | 1-2 per case |
+| Lesson 4 | "Try it" pauses | 2-3 per lesson |
+| Problem Set Start | Warm-up activity | 1 per problem set |
+
+**M.3.2 Gamification Placement**
+
+| Element | Placement | Frequency | Caution |
+|---------|-----------|-----------|---------|
+| Points | Problem set completion | Per module | Don't overemphasize |
+| Badges | Module/pathway completion | Per milestone | Keep meaningful |
+| Leaderboards | Course level | Optional | Opt-in only |
+| Challenges | Lesson 4, problem sets | 1-2 per module | Fun, not frustrating |
+| Progress Bars | Navigation | Always visible | Shows advancement |
+
+**M.3.3 Ice-Breakers by Tier**
+
+| Tier | Style | Example |
+|------|-------|---------|
+| Less | Confidence-building | "Find 3 examples in daily life" |
+| Standard | Activating | "Predict what happens when..." |
+| More | Challenging | "Identify the flaw" |
+| Hacker | Provocative | "Why might best practice be wrong?" |
+
+#### M.4 Storytelling Maintenance
+
+**Research**: Narrative improves recall (Graesser et al., 2002).
+
+**M.4.1 Narrative Checkpoints**
+
+| Location | Element | Verification |
+|----------|---------|--------------|
+| Module Start | Hero intro | Is hero present and relatable? |
+| Lesson 1 | Hero's situation | Does hook connect to journey? |
+| Lesson 2 | Hero's learning | Are concepts hero's discovery? |
+| Lesson 3 | Hero's decision | Is case study hero's moment? |
+| Lesson 4 | Hero's action | Does demo show hero's approach? |
+| Problem Set | Learner as hero | Does learner step into hero's shoes? |
+
+**M.4.2 Voice Transitions**
+
+| Shift | Transition Phrase |
+|-------|-------------------|
+| Malan → Ng | "Now that we're excited, let's understand exactly how it works..." |
+| Ng → Williams | "With that foundation, let's see how this plays out in real life..." |
+| Williams → Ross | "Inspired? Let's make it happen ourselves..." |
+
+#### M.5 Component Requirements
+
+**M.5.1 Required vs. Recommended**
+
+| Component | Module | Pathway | Course |
+|-----------|--------|---------|--------|
+| North Star Statement | Required | Required | Required |
+| Learning Objectives (3) | Required | Required | Required |
+| Four Lessons | Required | Per module | Per module |
+| Problem Set (1+ tiers) | Required | Per module | Per module |
+| Portfolio Artifact | Required | Mini-capstone | Capstone |
+| Hero Character | Recommended | Required | Required |
+| Videos | Recommended | Recommended | Required |
+| Concept Checks | Recommended | Recommended | Recommended |
+| Glossary | Recommended | Required | Required |
+| Rubrics | Required | Required | Required |
+| Facilitation Guide | Recommended | Recommended | Required |
+
+#### M.6 Anti-Pattern Reference
+
+| Anti-Pattern | Problem | Solution |
+|--------------|---------|----------|
+| Info Dumping | All info at once | Progressive disclosure |
+| Jargon Bombing | Terms without definition | Define first use, glossary |
+| Perfect Hero | Never struggles | Show mistakes, learning |
+| Monotone Voice | Same energy throughout | Shift persona by lesson |
+| Assessment Mismatch | Doesn't match objectives | Back-map from artifact |
+| Orphan Content | No narrative connection | Weave hero thread |
+| Wall of Text | No breaks | Visuals, callouts, chunking |
+| Over-Gamification | Too many elements | Limit to 2-3 meaningful |
+| Assumption of Knowledge | No prerequisites | Explicit prerequisite list |
+| Dead-End Module | No larger connection | Pathway context, next steps |
+
+### Appendix N: Accessibility Guidelines
+
+Closing the accessibility gap identified in the framework evaluation.
+
+#### N.1 Accessibility Checklist by Lesson
+
+**All Lessons**:
+- [ ] Text is readable at 200% zoom
+- [ ] Color is not sole indicator of meaning
+- [ ] Links are descriptive (not "click here")
+- [ ] Headings follow logical hierarchy
+
+**Lesson 1 (Introduction)**:
+- [ ] Analogies don't rely on visual-only concepts
+- [ ] Hook works for auditory learners
+- [ ] Images have alt text describing emotional tone
+
+**Lesson 2 (Understanding)**:
+- [ ] Diagrams have text alternatives
+- [ ] Tables include proper headers
+- [ ] Code examples are screen-reader friendly
+
+**Lesson 3 (Application)**:
+- [ ] Case study available in text format
+- [ ] Hero character described verbally
+- [ ] Decision points accessible via keyboard
+
+**Lesson 4 (Hands-On)**:
+- [ ] Demonstrations have audio descriptions
+- [ ] Code is copyable (not images)
+- [ ] Error messages are announced to screen readers
+
+#### N.2 Video Accessibility
+
+- [ ] Captions (auto-generated acceptable, human-reviewed preferred)
+- [ ] Audio descriptions for visual-only content
+- [ ] Transcript available
+- [ ] No flashing content (epilepsy risk)
+- [ ] Sufficient color contrast
+
+#### N.3 Problem Set Accessibility
+
+- [ ] Multiple formats for submission (text, audio, video)
+- [ ] Extended time options documented
+- [ ] Alternative assessment available if needed
+- [ ] Rubrics available before starting
+
+### Appendix O: Peer Learning Protocols
+
+Closing the peer learning gap identified in the framework evaluation.
+
+#### O.1 Peer Review Protocol for Problem Sets
+
+**Before Review**:
+1. Student completes their own problem set
+2. Student submits with self-assessment using rubric
+3. Anonymous peer assignment (2-3 reviewers)
+
+**During Review**:
+1. Reviewer uses same rubric as self-assessment
+2. Reviewer provides: 2 strengths, 2 improvements, 1 question
+3. Reviewer completes within 3-5 days
+
+**After Review**:
+1. Student receives aggregated feedback
+2. Student may revise based on feedback (if allowed)
+3. Instructor reviews disagreements
+
+#### O.2 Discussion Protocols
+
+**Think-Pair-Share** (for Lesson 3):
+1. Individual reflection (2 min)
+2. Partner discussion (5 min)
+3. Share with larger group (10 min)
+
+**Case Study Protocol**:
+1. Individual read and analysis (10 min)
+2. Small group discussion (15 min)
+3. Group presents position (5 min each)
+4. Whole class synthesis (10 min)
+
+#### O.3 Peer Support Roles
+
+| Role | Description | When to Use |
+|------|-------------|-------------|
+| **Study Buddy** | Accountability partner | Async courses |
+| **Peer Mentor** | Advanced student helps novice | Mixed-level cohorts |
+| **Review Partner** | Reciprocal feedback | Problem sets |
+| **Discussion Lead** | Facilitates small group | Lesson 3 |
+
 ---
 
 ## References
@@ -1988,6 +2550,22 @@ Quality Matters. (2024). *Higher Ed Course Design Rubric* (7th ed.). Quality Mat
 U.S. Department of Education. (2023). *Artificial intelligence and the future of teaching and learning: Insights and recommendations*. Office of Educational Technology.
 
 Zeng, J., et al. (2024). Exploring the impact of gamification on students' academic performance: A comprehensive meta-analysis of studies from 2008 to 2023. *British Journal of Educational Technology, 55*(1), 135-158.
+
+### Appendix Sources
+
+Berge, Z. L. (1995). The role of the online instructor/facilitator. *Educational Technology, 35*(1), 22-30.
+
+edX. (2013). *Optimal video length for student engagement*. edX Research.
+
+Edmundson, A. (2007). *Globalized e-learning cultural challenges*. IGI Global.
+
+Faculty Focus. (2024). The use of artificial intelligence (AI) to generate case studies for the classroom. *Faculty Focus*.
+
+Hofstede, G. (2011). *Dimensionalizing cultures: The Hofstede model in context*. Online Readings in Psychology and Culture.
+
+Microsoft. (2015). *Attention spans research report*. Microsoft Canada.
+
+Ning, S., & Inan, F. (2022). The effects of video length on learning outcomes: A meta-analysis. *Computers & Education, 180*, 104431.
 
 ---
 
