@@ -1,0 +1,367 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AMCD Course Configuration",
+  "description": "Configuration schema for the Agentic Course Creator following CORE + FLEX framework",
+  "type": "object",
+  "required": ["course", "audience", "parameters"],
+  "properties": {
+    "course": {
+      "type": "object",
+      "description": "Core course information",
+      "required": ["title", "topic"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Full course title",
+          "examples": ["Introduction to AI Agents", "Database Design Fundamentals"]
+        },
+        "topic": {
+          "type": "string",
+          "description": "Core subject matter",
+          "examples": ["Building autonomous AI systems with LLMs"]
+        },
+        "description": {
+          "type": "string",
+          "description": "Brief course description (1-3 sentences)",
+          "maxLength": 500
+        },
+        "version": {
+          "type": "string",
+          "description": "Course version",
+          "default": "1.0.0"
+        },
+        "author": {
+          "type": "string",
+          "description": "Course author or organization"
+        },
+        "domain": {
+          "type": "string",
+          "enum": ["cs", "ai_ml", "web_dev", "data", "devops", "security", "business", "general"],
+          "description": "Primary domain for terminology and examples"
+        }
+      }
+    },
+    "audience": {
+      "type": "object",
+      "description": "Target audience specifications",
+      "required": ["primary", "level"],
+      "properties": {
+        "primary": {
+          "type": "string",
+          "description": "Primary target learner description",
+          "examples": ["Software developers", "Data scientists", "Product managers"]
+        },
+        "secondary": {
+          "type": "string",
+          "description": "Secondary audience (optional)"
+        },
+        "level": {
+          "type": "string",
+          "enum": ["beginner", "intermediate", "advanced", "mixed"],
+          "description": "Overall skill level"
+        },
+        "prerequisites": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Required prior knowledge",
+          "examples": [["Basic Python", "Understanding of APIs"]]
+        },
+        "roles": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Specific job roles for role-based adaptation",
+          "examples": [["Backend Developer", "DevOps Engineer", "Tech Lead"]]
+        }
+      }
+    },
+    "parameters": {
+      "type": "object",
+      "description": "Course generation parameters",
+      "required": ["total_hours"],
+      "properties": {
+        "total_hours": {
+          "type": "number",
+          "minimum": 5,
+          "maximum": 200,
+          "description": "Total expected student hours"
+        },
+        "reading_level": {
+          "type": "string",
+          "enum": ["basic", "professional", "academic"],
+          "default": "professional",
+          "description": "Content reading complexity"
+        },
+        "difficulty": {
+          "type": "string",
+          "enum": ["easy", "moderate", "challenging", "expert"],
+          "default": "moderate",
+          "description": "Overall difficulty"
+        },
+        "ai_content_ratio": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "default": 0.8,
+          "description": "Ratio of AI-generated to human content (0.8 = 80% AI)"
+        },
+        "detail_level": {
+          "type": "string",
+          "enum": ["concise", "standard", "comprehensive"],
+          "default": "standard",
+          "description": "Depth of explanations"
+        },
+        "code_heavy": {
+          "type": "boolean",
+          "default": true,
+          "description": "Whether to include extensive code examples"
+        }
+      }
+    },
+    "structure": {
+      "type": "object",
+      "description": "Course architecture settings",
+      "properties": {
+        "pathways": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6,
+          "default": 3,
+          "description": "Number of pathways (major sections)"
+        },
+        "modules_per_pathway": {
+          "type": "integer",
+          "minimum": 2,
+          "maximum": 8,
+          "default": 4,
+          "description": "Modules per pathway"
+        },
+        "lessons_per_module": {
+          "type": "integer",
+          "enum": [4],
+          "default": 4,
+          "description": "Always 4 (CORE: Captivate, Orient, Realize, Execute)"
+        },
+        "include_capstone": {
+          "type": "boolean",
+          "default": true,
+          "description": "Include final course capstone"
+        },
+        "include_mini_capstones": {
+          "type": "boolean",
+          "default": true,
+          "description": "Include pathway-level mini-capstones"
+        },
+        "pathway_names": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Optional custom pathway names"
+        }
+      }
+    },
+    "problem_sets": {
+      "type": "object",
+      "description": "FLEX problem set configuration",
+      "properties": {
+        "tier_count": {
+          "type": "integer",
+          "minimum": 2,
+          "maximum": 4,
+          "default": 3,
+          "description": "Number of difficulty tiers"
+        },
+        "tiers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "target"],
+            "properties": {
+              "name": { "type": "string" },
+              "target": { "type": "string" },
+              "scaffolding": { "type": "string", "enum": ["high", "medium", "low", "minimal"] }
+            }
+          },
+          "description": "Custom tier definitions",
+          "default": [
+            { "name": "Foundation", "target": "Beginners", "scaffolding": "high" },
+            { "name": "Standard", "target": "Intermediate", "scaffolding": "medium" },
+            { "name": "Advanced", "target": "Experienced", "scaffolding": "low" }
+          ]
+        },
+        "time_per_tier": {
+          "type": "integer",
+          "minimum": 15,
+          "maximum": 120,
+          "default": 45,
+          "description": "Target minutes per tier (time equivalence)"
+        },
+        "grading_policy": {
+          "type": "string",
+          "enum": ["max", "average", "weighted", "latest"],
+          "default": "max",
+          "description": "How multiple tier attempts are graded"
+        },
+        "role_based": {
+          "type": "boolean",
+          "default": false,
+          "description": "Use role-based instead of skill-based tiers"
+        }
+      }
+    },
+    "delivery": {
+      "type": "object",
+      "description": "Delivery format and platform settings",
+      "properties": {
+        "format": {
+          "type": "string",
+          "enum": ["async_online", "live_virtual", "in_person", "hybrid", "self_paced"],
+          "default": "async_online",
+          "description": "Primary delivery format"
+        },
+        "platform": {
+          "type": "string",
+          "enum": ["markdown", "udemy", "coursera", "canvas", "moodle", "custom_lms", "notion"],
+          "default": "markdown",
+          "description": "Target platform"
+        },
+        "video_scripts": {
+          "type": "boolean",
+          "default": false,
+          "description": "Generate video script versions of lessons"
+        },
+        "workshop_variant": {
+          "type": "boolean",
+          "default": false,
+          "description": "Generate condensed workshop version"
+        },
+        "workshop_duration": {
+          "type": "string",
+          "enum": ["half_day", "full_day", "two_day", "week"],
+          "description": "Workshop duration if variant requested"
+        },
+        "interactive_elements": {
+          "type": "boolean",
+          "default": true,
+          "description": "Include quizzes, checks for understanding"
+        }
+      }
+    },
+    "hero": {
+      "type": "object",
+      "description": "Hero character for narrative continuity",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Hero's first name",
+          "default": "Alex"
+        },
+        "role": {
+          "type": "string",
+          "description": "Hero's job role",
+          "examples": ["Backend developer", "Data scientist"]
+        },
+        "context": {
+          "type": "string",
+          "description": "Hero's work context",
+          "examples": ["Early-stage startup", "Enterprise company"]
+        },
+        "personality": {
+          "type": "string",
+          "description": "1-2 personality traits",
+          "examples": ["Eager but learning to balance speed with quality"]
+        },
+        "arc": {
+          "type": "string",
+          "description": "Hero's growth journey across the course"
+        }
+      }
+    },
+    "source_materials": {
+      "type": "object",
+      "description": "External content to incorporate",
+      "properties": {
+        "research_papers": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Academic sources (URLs or citations)"
+        },
+        "existing_courses": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Courses to enhance or build upon"
+        },
+        "documentation": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Technical documentation to teach"
+        },
+        "examples": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Real-world examples to include"
+        },
+        "case_studies": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Case studies for Lesson 3"
+        }
+      }
+    },
+    "customization": {
+      "type": "object",
+      "description": "Additional customization options",
+      "properties": {
+        "branding": {
+          "type": "object",
+          "properties": {
+            "organization": { "type": "string" },
+            "logo_path": { "type": "string" },
+            "color_scheme": { "type": "string" }
+          }
+        },
+        "terminology": {
+          "type": "object",
+          "additionalProperties": { "type": "string" },
+          "description": "Custom term mappings"
+        },
+        "excluded_topics": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Topics to avoid"
+        },
+        "required_topics": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Topics that must be covered"
+        }
+      }
+    },
+    "quality": {
+      "type": "object",
+      "description": "Quality assurance settings",
+      "properties": {
+        "review_enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Run QA agents on output"
+        },
+        "bloom_validation": {
+          "type": "boolean",
+          "default": true,
+          "description": "Validate Bloom's taxonomy progression"
+        },
+        "voice_consistency": {
+          "type": "boolean",
+          "default": true,
+          "description": "Check persona voice consistency"
+        },
+        "minimum_quality_score": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "default": 80,
+          "description": "Minimum acceptable quality score"
+        }
+      }
+    }
+  }
+}
