@@ -1,5 +1,7 @@
 # Adaptive Modular Course Design (AMCD)
 
+> *A research-backed instructional design methodology for scalable, adaptable course creation—with an exploratory AI implementation concept.*
+
 **A Research-Informed Framework for Designing Scalable Technical Education**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)

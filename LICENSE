@@ -19,3 +19,19 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+LICENSING NOTE
+
+This repository is released under the MIT License, covering:
+- The AMCD methodology documentation
+- Agent specifications and templates
+- Instructional guides and examples
+
+Future implementation components (working code, APIs, production tools) may be
+released under alternative licensing arrangements. This open-core approach allows
+community contribution to the methodology while preserving flexibility for future
+commercial or specialized implementations.
+
+For questions about licensing for specific use cases, contact Bradley Ross.
